@@ -12,7 +12,12 @@ function text(value: unknown, maximum: number) {
 
 export async function POST(request: Request) {
   const origin = request.headers.get('origin');
-  if (origin && origin !== new URL(request.url).origin) return Response.json({error: 'Origine de la requête refusée.'}, {status: 403});
+  const allowedOrigins = new Set([new URL(request.url).origin]);
+  if (process.env.APP_URL) allowedOrigins.add(process.env.APP_URL.replace(/\/$/, ''));
+  const forwardedHost = request.headers.get('x-forwarded-host');
+  const forwardedProto = request.headers.get('x-forwarded-proto');
+  if (forwardedHost && forwardedProto && ['http', 'https'].includes(forwardedProto)) allowedOrigins.add(`${forwardedProto}://${forwardedHost}`);
+  if (origin && !allowedOrigins.has(origin)) return Response.json({error: 'Origine de la requête refusée.'}, {status: 403});
   let input: Record<string, unknown>;
   try { input = await request.json(); } catch { return Response.json({error: 'Requête invalide.'}, {status: 400}); }
   if (input.website) return Response.json({error: 'Demande refusée.'}, {status: 400});
