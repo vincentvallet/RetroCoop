@@ -1,26 +1,28 @@
 'use client';
-import {useMemo,useState} from 'react';
+import {useDeferredValue,useEffect,useMemo,useState} from 'react';
 import {useRouter} from 'next/navigation';
 import {GameAutocomplete} from '@/components/GameAutocomplete';
 import {GameCard} from '@/components/GameCard';
 import {CatalogueGame,normalizeGameTitle} from '@/lib/games';
 
-export function CatalogueClient({games,initialSort='az'}:{games:CatalogueGame[];initialSort?:string}){
+export function CatalogueClient({games}:{games:CatalogueGame[]}){
   const router=useRouter();
-  const [query,setQuery]=useState(''),[players,setPlayers]=useState(''),[year,setYear]=useState(''),[sort,setSort]=useState(initialSort);
+  const [query,setQuery]=useState(''),[players,setPlayers]=useState(''),[year,setYear]=useState(''),[sort,setSort]=useState('az'),deferredQuery=useDeferredValue(query);
   const [coop,setCoop]=useState(false),[versus,setVersus]=useState(false),[rated,setRated]=useState(false),[tags,setTags]=useState<string[]>([]);
   const years=useMemo(()=>[...new Set(games.map(game=>game.releaseYear).filter((value):value is number=>Boolean(value)))].sort((a,b)=>b-a),[games]);
   const availableTags=useMemo(()=>[...new Set(games.flatMap(game=>game.tags?.length?game.tags:game.genres??[]))].sort((a,b)=>a.localeCompare(b,'fr')),[games]);
+  const indexedGames=useMemo(()=>games.map(game=>({game,searchTitle:normalizeGameTitle([game.title,...(game.aliases??[])].join(' '))})),[games]);
+  useEffect(()=>{const requested=new URLSearchParams(location.search).get('sort');if(requested)queueMicrotask(()=>setSort(requested))},[]);
   const list=useMemo(()=>{
-    const needle=normalizeGameTitle(query);
-    return games
-      .filter(game=>!needle||normalizeGameTitle(game.title).includes(needle))
+    const needle=normalizeGameTitle(deferredQuery);
+    return indexedGames
+      .filter(item=>!needle||item.searchTitle.includes(needle)).map(item=>item.game)
       .filter(game=>!players||(game.playerMax??0)>=Number(players))
       .filter(game=>!year||game.releaseYear===Number(year))
       .filter(game=>!coop||game.coop).filter(game=>!versus||game.versus).filter(game=>!rated||game.externalRating!=null)
       .filter(game=>!tags.length||tags.every(tag=>(game.tags?.length?game.tags:game.genres).includes(tag)))
       .sort((a,b)=>{if(sort==='za')return b.sortTitle.localeCompare(a.sortTitle,'fr');if(sort==='newest')return(b.releaseYear??0)-(a.releaseYear??0)||a.sortTitle.localeCompare(b.sortTitle,'fr');if(sort==='oldest')return(a.releaseYear??9999)-(b.releaseYear??9999)||a.sortTitle.localeCompare(b.sortTitle,'fr');if(sort==='most-played')return(b.organizedSessionCount??0)-(a.organizedSessionCount??0)||a.sortTitle.localeCompare(b.sortTitle,'fr');if(sort==='best-rated')return(b.externalRating??-1)-(a.externalRating??-1)||a.sortTitle.localeCompare(b.sortTitle,'fr');if(sort==='players')return(b.playerMax??0)-(a.playerMax??0)||a.sortTitle.localeCompare(b.sortTitle,'fr');return a.sortTitle.localeCompare(b.sortTitle,'fr')});
-  },[games,query,players,year,sort,coop,versus,rated,tags]);
+  },[indexedGames,deferredQuery,players,year,sort,coop,versus,rated,tags]);
   const reset=()=>{setQuery('');setPlayers('');setYear('');setSort('az');setCoop(false);setVersus(false);setRated(false);setTags([])};
   const rememberNavigation=(game:CatalogueGame)=>{try{sessionStorage.setItem('retrocoop:game-navigation',JSON.stringify({slugs:list.map(item=>item.slug),current:game.slug,savedAt:Date.now()}))}catch{}}
   return <>
@@ -34,7 +36,7 @@ export function CatalogueClient({games,initialSort='az'}:{games:CatalogueGame[];
       <fieldset className="tag-filters"><legend>Tags</legend>{availableTags.map(tag=><label key={tag}><input type="checkbox" checked={tags.includes(tag)} onChange={event=>setTags(values=>event.target.checked?[...values,tag]:values.filter(value=>value!==tag))}/>{tag}</label>)}</fieldset>
       <button className="btn secondary" type="button" onClick={reset}>Réinitialiser les filtres</button>
     </div></details>
-    <div className="grid catalogue-grid" onClick={event=>{const link=(event.target as HTMLElement).closest<HTMLAnchorElement>('a[href^="/jeux/megadrive/"]');const game=link&&list.find(item=>link.pathname.endsWith(`/${item.slug}`));if(game)rememberNavigation(game)}}>{list.map(game=><GameCard key={game.slug} game={game}/>)}</div>
+    <div className="grid catalogue-grid" onClick={event=>{const link=(event.target as HTMLElement).closest<HTMLAnchorElement>('a[href^="/jeux/megadrive/"]');const game=link&&list.find(item=>link.pathname.endsWith(`/${item.slug}`));if(game)rememberNavigation(game)}}>{list.map((game,index)=><GameCard key={game.slug} game={game} eager={index<6}/>)}</div>
     {!list.length&&<p className="empty-state">Aucun jeu ne correspond à ces filtres.</p>}
   </>;
 }

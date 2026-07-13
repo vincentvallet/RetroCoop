@@ -1,11 +1,14 @@
 'use client';
-import Image from 'next/image';
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import {useCallback,useEffect,useMemo,useState} from 'react';
-import {CatalogueGame} from '@/lib/games';
+import gamesData from '@/data/normalized/megadrive-games.json';
+import {CatalogueGame,toCatalogueGame} from '@/lib/games';
+import {mediaUrl} from '@/lib/media';
 import {GameplayGallery} from '@/components/GameplayGallery';
 
 const navigationKey='retrocoop:game-navigation';
+const games=(gamesData as CatalogueGame[]).map(toCatalogueGame);
 
 function storedOrder(games:CatalogueGame[],slug:string){
   const fallback=games.map(game=>game.slug);
@@ -17,8 +20,8 @@ function storedOrder(games:CatalogueGame[],slug:string){
   }catch{return fallback}
 }
 
-export function GameDetailNavigator({games,initialSlug}:{games:CatalogueGame[];initialSlug:string}){
-  const bySlug=useMemo(()=>new Map(games.map(game=>[game.slug,game])),[games]);
+export function GameDetailNavigator({initialSlug}:{initialSlug:string}){
+  const bySlug=useMemo(()=>new Map(games.map(game=>[game.slug,game])),[]);
   const [slug,setSlug]=useState(initialSlug),[order,setOrder]=useState(()=>games.map(game=>game.slug));
   const index=Math.max(0,order.indexOf(slug));
   const game=bySlug.get(slug)??bySlug.get(initialSlug)!;
@@ -36,11 +39,11 @@ export function GameDetailNavigator({games,initialSlug}:{games:CatalogueGame[];i
     const remembered=storedOrder(games,initialSlug);queueMicrotask(()=>setOrder(remembered));
     const onPop=()=>{const candidate=location.pathname.split('/').filter(Boolean).at(-1);if(candidate&&bySlug.has(candidate))setSlug(candidate)};
     addEventListener('popstate',onPop);return()=>removeEventListener('popstate',onPop);
-  },[bySlug,games,initialSlug]);
+  },[bySlug,initialSlug]);
 
   useEffect(()=>{
     const targets=new Set<string>();
-    for(const offset of [-2,-1,1,2]){const item=bySlug.get(adjacent(offset));if(item?.coverUrl)targets.add(item.coverUrl);if(item?.gameplayImages?.[0]?.path)targets.add(item.gameplayImages[0].path)}
+    for(const offset of [-1,1]){const item=bySlug.get(adjacent(offset));if(item?.coverUrl)targets.add(mediaUrl(item.coverUrl));if(item?.gameplayImages?.[0]?.path)targets.add(mediaUrl(item.gameplayImages[0].path))}
     targets.forEach(src=>{const image=new window.Image();image.decoding='async';image.src=src});
   },[adjacent,bySlug]);
 
@@ -60,7 +63,7 @@ export function GameDetailNavigator({games,initialSlug}:{games:CatalogueGame[];i
     <div className="game-nav-shell">
       <button className="game-nav-arrow previous" type="button" onClick={()=>show(previous.slug)} aria-label={`Jeu précédent : ${previous.title}`} title="Jeu précédent (flèche gauche)">‹</button>
       <div className="game-detail">
-        <div className="cover">{game.coverUrl?<Image key={game.coverUrl} src={game.coverUrl} alt={game.coverAlt??`Jaquette de ${game.title}`} width={500} height={700} priority unoptimized/>:<span className="cover-placeholder"><span className="pixel">RETRO<br/>COOP</span><small>Jaquette indisponible</small></span>}</div>
+        <div className="cover">{game.coverUrl?<img key={game.coverUrl} src={mediaUrl(game.coverUrl)} alt={game.coverAlt??`Jaquette de ${game.title}`} width="500" height="700" loading="eager" decoding="async" fetchPriority="high"/>:<span className="cover-placeholder"><span className="pixel">RETRO<br/>COOP</span><small>Jaquette indisponible</small></span>}</div>
         <article><h1>{game.title}</h1><p>{game.releaseYear??'Année à vérifier'} · {game.region??'Région à vérifier'} · {game.playerMax?`jusqu’à ${game.playerMax} joueurs`:'nombre de joueurs à vérifier'}</p>{game.genres.map(genre=><span className="badge" key={genre}>{genre}</span>)}<p><Link className="btn" href={`/sessions/nouvelle?jeu=${game.slug}`}>Proposer une partie</Link></p></article>
       </div>
       <button className="game-nav-arrow next" type="button" onClick={()=>show(next.slug)} aria-label={`Jeu suivant : ${next.title}`} title="Jeu suivant (flèche droite)">›</button>

@@ -47,6 +47,14 @@ npm run media:final-report
 npm run metadata:audit
 ```
 
+Les médias utilisent des noms contenant un hash de contenu et ne passent pas par `/_next/image`. Pour construire le paquet destiné à un Render Static Site :
+
+```bash
+npm run build:media
+```
+
+La variable `NEXT_PUBLIC_MEDIA_BASE_URL` reste vide en local et reçoit le domaine du Static Site en production. La procédure complète est documentée dans [docs/MEDIA_STATIC_SITE.md](docs/MEDIA_STATIC_SITE.md).
+
 ## Publier Retro Coop gratuitement avec Render et Neon
 
 ### A. Créer la base Neon

@@ -1,8 +1,9 @@
 'use client';
+/* eslint-disable @next/next/no-img-element */
 
 import {useEffect, useId, useMemo, useRef, useState} from 'react';
-import Image from 'next/image';
 import {CatalogueGame, searchGames} from '@/lib/games';
+import {mediaUrl} from '@/lib/media';
 
 type Props = {
   games: CatalogueGame[];
@@ -82,7 +83,7 @@ export function GameAutocomplete({games, name = 'gameId', initialSlug, label = '
         className={index === active ? 'active' : undefined}
         onPointerDown={event => { event.preventDefault(); choose(game); }}
       >
-        <span className="suggestion-cover" aria-hidden="true">{game.coverUrl ? <Image src={game.coverUrl} alt="" width={36} height={48}/> : 'RC'}</span>
+        <span className="suggestion-cover" aria-hidden="true">{game.coverUrl ? <img src={mediaUrl(game.coverUrl)} alt="" width="36" height="48" loading="lazy" decoding="async"/> : 'RC'}</span>
         <span><strong>{game.title}</strong><small>{game.releaseYear ?? 'Année inconnue'} · {game.playerMax ? `jusqu’à ${game.playerMax} joueurs` : 'Joueurs inconnus'}</small></span>
       </li>)}
       {!results.length && <li className="no-result">Aucun jeu trouvé</li>}

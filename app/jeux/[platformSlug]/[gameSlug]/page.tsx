@@ -10,5 +10,5 @@ export default async function Game({params}: {params: Promise<{gameSlug: string}
   const {gameSlug} = await params;
   const game = games.find(item => item.slug === gameSlug);
   if (!game) notFound();
-  return <GameDetailNavigator games={games} initialSlug={game.slug}/>;
+  return <GameDetailNavigator initialSlug={game.slug}/>;
 }

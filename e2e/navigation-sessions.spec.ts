@@ -7,7 +7,7 @@ test('navigation instantanée, circulaire, filtrée et tactile',async({page})=>{
   await page.goto('/jeux/megadrive/2020-super-baseball');
   const documentsAfterLoad=documentRequests.length;
   await expect(page.getByTestId('game-navigator')).toHaveAttribute('data-context-size','371');
-  await expect.poll(()=>imageRequests.some(url=>url.endsWith('/covers/megadrive/zoom.webp'))).toBeTruthy();await expect.poll(()=>imageRequests.some(url=>url.endsWith('/gameplay/megadrive/zoom-gameplay-1.webp'))).toBeTruthy();
+  await expect.poll(()=>imageRequests.some(url=>/\/covers\/megadrive\/zoom-[a-f0-9]{8}\.webp$/.test(url))).toBeTruthy();await expect.poll(()=>imageRequests.some(url=>/\/gameplay\/megadrive\/zoom-gameplay-1-[a-f0-9]{8}\.webp$/.test(url))).toBeTruthy();
   await page.keyboard.press('ArrowLeft');await expect(page).toHaveURL(/\/jeux\/megadrive\/zoom$/);await expect(page.getByRole('heading',{level:1,name:'Zoom!'})).toBeVisible();
   await page.keyboard.press('ArrowRight');await expect(page).toHaveURL(/\/jeux\/megadrive\/2020-super-baseball$/);
   const average=await page.evaluate(async()=>{
