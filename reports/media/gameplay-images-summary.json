@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-13T12:13:10.723Z",
+  "dryRun": false,
+  "totalGames": 371,
+  "sourceFiles": 2112,
+  "selectedGames": 1,
+  "matched": 1,
+  "imported": 1,
+  "gamesWithAtLeastOneGameplayImage": 371,
+  "gamesWithTwoGameplayImages": 0,
+  "gamesWithThreeGameplayImages": 0,
+  "gamesWithoutGameplayImage": 0,
+  "totalGameplayImages": 371,
+  "libretroImages": 371,
+  "igdbImages": 0,
+  "screenscraperImages": 0,
+  "invalidImagesRejected": 3,
+  "duplicatesRejected": 0,
+  "totalSizeBeforeOptimization": 7468,
+  "totalSizeAfterOptimization": 6898936
+}

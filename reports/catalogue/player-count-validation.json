@@ -1,0 +1,2294 @@
+[
+  {
+    "title": "2020 Super Baseball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "3 Ninjas Kick Back",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Action 52",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "The Adventures of Batman & Robin",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "The Adventures of Mighty Max",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Aerobiz",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "Aerobiz Supersonic",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "Alien Storm",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Altered Beast",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "American Gladiators",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Andre Agassi Tennis",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "The Aquatic Games Starring James Pond",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Arch Rivals: The Arcade Game",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Arcus Odyssey",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Arnold Palmer Tournament Golf",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Art of Fighting",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "ATP Tour Championship Tennis",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Australian Rugby League",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "AWS Pro Moves Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Ayrton Senna's Super Monaco GP II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Ball Jacks",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Ballz 3D: Fighting at Its Ballziest",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Barkley: Shut Up and Jam!",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "Barkley: Shut Up and Jam! 2",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "Battle Squadron",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "BattleTech: A Game of Armored Combat",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Battletoads",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Battletoads / Double Dragon",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Beast Wrestler",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "The Berenstain Bears' Camping Adventure",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Best of the Best: Championship Karate",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Bill Walsh College Football",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Bill Walsh College Football '95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Bio-Hazard Battle",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Blades of Vengeance",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Blockout",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Bloodshot",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Body Count",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Bonanza Bros.",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Boxing Legends of the Ring",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Brett Hull Hockey '95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Brian Lara Cricket",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Brian Lara Cricket '96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Bubsy II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Bubsy in: Claws Encounters of the Furred Kind",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Budokan: The Martial Spirit",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Bulls vs. Blazers and the NBA Playoffs",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Bulls vs. Lakers and the NBA Playoffs",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Cadash",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Cal Ripken Jr. Baseball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "California Games",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Captain America and the Avengers",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Centurion: Defender of Rome",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Champions World Class Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Championship Bowling",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Championship Pool",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Championship Pro-Am",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "The Chaos Engine (Soldiers of Fortune)",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Chi Chi's Pro Challenge Golf",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Chiki Chiki Boys",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "ClayFighter",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Clue",
+    "playerMin": 2,
+    "playerMax": 6,
+    "valid": true
+  },
+  {
+    "title": "Coach K College Basketball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "College Football USA 96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "College Football USA 97",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "College Football's National Championship",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "College Football's National Championship II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "College Slam",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "Columns",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Columns III: Revenge of Columns",
+    "playerMin": 2,
+    "playerMax": 5,
+    "valid": true
+  },
+  {
+    "title": "Combat Cars",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Crack Down",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Cutie Suzuki no Ringside Angel",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Cutthroat Island",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Cyborg Justice",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Dashin' Desperadoes",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "David Robinson's Supreme Court",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Davis Cup World Tour",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Deadly Moves",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Death Duel",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Devil's Course",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Dick Vitale's 'Awesome, Baby!' College Hoops",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Dino Dini's Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Dinosaurs for Hire",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Doom Troopers: The Mutant Chronicles",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Double Clutch",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Double Dragon",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Double Dragon 3: The Arcade Game",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Double Dragon V: The Shadow Falls",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Double Dribble: The Playoff Edition",
+    "playerMin": 2,
+    "playerMax": 8,
+    "valid": true
+  },
+  {
+    "title": "Dr. Robotnik's Mean Bean Machine",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Dragon Ball Z: L'Appel du destin",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Dragon: The Bruce Lee Story",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Dragon's Fury",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Dragon's Revenge",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Dyna Brothers",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Dyna Brothers 2",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "EA Hockey",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "ESPN National Hockey Night",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "ESPN SpeedWorld",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Eternal Champions",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "European Club Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Evander Holyfield's Real Deal Boxing",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Exodus: Journey to the Promised Land",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "F1",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "F1 Circus MD",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "F1 Grand Prix: Nakajima Satoru",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "F1 Super License: Nakajima Satoru",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "F1 World Championship Edition",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Family Feud",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Fatal Fury",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Fatal Fury 2",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Ferrari Grand Prix Challenge",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Fever Pitch Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "FIFA 97",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "FIFA 98: Road to World Cup",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "FIFA International Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "FIFA Soccer 95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "FIFA Soccer 96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Fighting Masters",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Foreman For Real",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Forgotten Worlds",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Frank Thomas Big Hurt Baseball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Frogger",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Fun 'n Games",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Gadget Twins",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Gain Ground",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "The Games: Summer Challenge",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "The Games: Winter Challenge",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Gauntlet IV",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "Gemfire",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "General Chaos",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "Genghis Khan II: Clan of the Gray Wolf",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Golden Axe",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Golden Axe II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Golden Axe III",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Greatest Heavyweights",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Gunstar Heroes",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "HardBall '94",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "HardBall '95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "HardBall II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "HardBall III",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "HardBall!",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Heavy Nova",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Herzog Zwei",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Huan Le Tao Qi Shu: Smart Mouse",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "IMG International Tour Tennis",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "International Rugby",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "International Superstar Soccer Deluxe",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "J.League Champion Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "J.League Pro Striker",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "J.League Pro Striker 2",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "J.League Pro Striker: Final Stage",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Jack Nicklaus' Power Challenge Golf",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Jammit",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Jennifer Capriati Tennis",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Jeopardy!",
+    "playerMin": 2,
+    "playerMax": 3,
+    "valid": true
+  },
+  {
+    "title": "Jeopardy!: Deluxe Edition",
+    "playerMin": 2,
+    "playerMax": 3,
+    "valid": true
+  },
+  {
+    "title": "Jeopardy!: Sports Edition",
+    "playerMin": 2,
+    "playerMax": 3,
+    "valid": true
+  },
+  {
+    "title": "Jimmy White's Whirlwind Snooker",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Joe Montana Football",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Joe Montana II: Sports Talk Football",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "John Barnes European Football",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "John Madden Football",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "John Madden Football '92",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "John Madden Football '93",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "John Madden Football '94",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "John Madden Football '95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Jordan vs Bird: One on One",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Joshua & the Battle of Jericho",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Justice League Task Force",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Ka-Ge-Ki: Fists of Steel",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Kick Off 3: European Challenge",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Kid Chameleon",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "King of the Monsters",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "King of the Monsters 2",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Klax",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Lakers versus Celtics and the NBA Playoffs",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Lemmings",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Lemmings 2: The Tribes",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Lethal Enforcers",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Lethal Enforcers II: Gun Fighters",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Liberty or Death",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Lotus II: R.E.C.S.",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Madden NFL 96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Madden NFL 97",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Madden NFL 98",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Manchester United Championship Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Manchester United Europe",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Manchester United Premier League Champions",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Marble Madness",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Mario Andretti Racing",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Mario Lemieux Hockey",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Master of Monsters",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Mazin Saga: Mutant Fighter",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Mega Bomberman",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "Mega-Lo-Mania",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Michael Jackson's Moonwalker",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Micro Machines",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Micro Machines 2: Turbo Tournament",
+    "playerMin": 2,
+    "playerMax": 8,
+    "valid": true
+  },
+  {
+    "title": "Micro Machines Military",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "Micro Machines: Turbo Tournament 96",
+    "playerMin": 2,
+    "playerMax": 8,
+    "valid": true
+  },
+  {
+    "title": "Mighty Morphin Power Rangers",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Mighty Morphin Power Rangers: The Movie",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Mike Ditka Power Football",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "MLBPA Baseball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Monopoly",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Mortal Kombat",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Mortal Kombat 3",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Mortal Kombat II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Ms. Pac-Man",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Muhammad Ali Heavyweight Boxing",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Mystical Fighter",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NBA Action '94",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NBA Action '95 Starring David Robinson",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NBA All-Star Challenge",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NBA Hang Time",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NBA Jam",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "NBA Jam Tournament Edition",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "NBA Live 95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NBA Live 96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NBA Live 97",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NBA Live 98",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NBA Showdown '94",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NFL '95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NFL Football '94 Starring Joe Montana",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NFL Quarterback Club",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NFL Quarterback Club 96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NFL Quarterback Club 97",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NHL '94",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NHL 95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NHL 96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NHL 97",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NHL 98",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NHL Hockey",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "NHLPA Hockey '93",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Nigel Mansell's World Championship Racing",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Nobunaga's Ambition",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Olympic Gold",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Olympic Hockey 98",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Olympic Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "OutRun 2019",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "OutRunners",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "P.T.O.: Pacific Theater of Operations",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Pac-Attack",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Pac-Mania",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Paperboy",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Paperboy 2",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Party Quiz Mega Q",
+    "playerMin": 2,
+    "playerMax": 5,
+    "valid": true
+  },
+  {
+    "title": "Pat Riley Basketball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Pebble Beach Golf Links",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Pelé II: World Tournament Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Pelé!",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Pete Sampras Tennis",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Pete Sampras Tennis '96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "PGA European Tour",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "PGA Tour 96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "PGA Tour Golf",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "PGA Tour Golf II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "PGA Tour Golf III",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "The Pirates of Dark Water",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Pit-Fighter",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Populous",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Populous II: Trials of the Olympian Gods",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "PowerMonger",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Primal Rage",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Prime Time NFL Starring Deion Sanders",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Pro Quarterback",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "The Punisher",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Puyo Puyo",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Puyo Puyo 2",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Puzzle & Action: Ichidant-R",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Puzzle & Action: Tant-R",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "R.B.I. Baseball '93",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "R.B.I. Baseball '94",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "R.B.I. Baseball 3",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "R.B.I. Baseball 4",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Raiden Trad",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Rambo III",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Rampart",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Revolution X",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Richard Scarry's Busytown",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Rise of the Robots",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Risk",
+    "playerMin": 2,
+    "playerMax": 6,
+    "valid": true
+  },
+  {
+    "title": "Road Rash 3",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Road Rash II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Rock n' Roll Racing",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Romance of the Three Kingdoms II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Romance of the Three Kingdoms III: Dragon of Destiny",
+    "playerMin": 2,
+    "playerMax": 8,
+    "valid": true
+  },
+  {
+    "title": "Rugby World Cup 95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Samurai Shodown",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Saturday Night Slam Masters",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Second Samurai",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Sensible Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Sensible Soccer: International Edition",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Shadow Blasters",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Shane Warne Cricket",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Shanghai II: Dragon's Eye",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Shaq-Fu",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Shove It! ...The Warehouse Game",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Skeleton Krew",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Skitchin'",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Slaughter Sport",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Smash T.V.",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Speedball 2: Brutal Deluxe",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Sports Talk Baseball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Star Control",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Street Fighter II': Special Champion Edition",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Street Smart",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Streets of Rage",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Streets of Rage 2",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Streets of Rage 3",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Striker",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Sunset Riders",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Super Kick Off",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Super Monaco GP",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Super Real Basketball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Super Street Fighter II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Super Volleyball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "T2: The Arcade Game",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "TaleSpin",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Tecmo Super Baseball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Tecmo Super Bowl",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Tecmo Super Bowl II: Special Edition",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Tecmo Super Bowl III: Final Edition",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Tecmo Super NBA Basketball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Tiny Toon Adventures: ACME All-Stars",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "ToeJam & Earl",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "ToeJam & Earl in Panic on Funkotron",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Toki: Going Ape Spit",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Tom and Jerry: Frantic Antics!",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Tommy Lasorda Baseball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Top Gear 2",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Toughman Contest",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Toxic Crusaders",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Triple Play 96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Triple Play: Gold Edition",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Trivial Pursuit: Genus Edition",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Troy Aikman NFL Football",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Turbo OutRun",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Two Crude Dudes",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Ultimate Mortal Kombat 3",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Ultimate Qix",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Unnecessary Roughness '95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Vapor Trail",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Venom/Spider-Man: Separation Anxiety",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Viewpoint",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Virtua Fighter 2",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Virtua Racing",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Warrior of Rome II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Wayne Gretzky and the NHLPA All-Stars",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "WeaponLord",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Wheel of Fortune",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Wheel of Fortune: Deluxe Edition",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Wimbledon Championship Tennis",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Wimbledon Championship Tennis II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Winter Olympics: Lillehammer '94",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Wonder Boy III: Monster Lair",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "World Championship Soccer",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "World Championship Soccer II",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "World Cup USA 94",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "World Heroes",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "World of Illusion Starring Mickey Mouse and Donald Duck",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "World Series Baseball",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "World Series Baseball '95",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "World Series Baseball '96",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "World Series Baseball '98",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Wrestle War",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "WWF Raw",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "WWF Royal Rumble",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "WWF Super WrestleMania",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "WWF WrestleMania: The Arcade Game",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "X-Men",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "X-Men 2: Clone Wars",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Xenon 2: Megablast",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Yogi Bear: Cartoon Capers",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Yu Yu Hakusho: Makyo Toitsusen",
+    "playerMin": 2,
+    "playerMax": 4,
+    "valid": true
+  },
+  {
+    "title": "Zany Golf",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Zombies Ate My Neighbors",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  },
+  {
+    "title": "Zoom!",
+    "playerMin": 2,
+    "playerMax": 2,
+    "valid": true
+  }
+]

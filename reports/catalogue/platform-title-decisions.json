@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-07-13T12:23:47.989Z",
+  "initialEntries": 382,
+  "finalEntries": 371,
+  "decisions": [
+    {
+      "slug": "hardball-ii",
+      "title": "HardBall II",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://en.wikipedia.org/wiki/HardBall_II",
+      "reason": "MS-DOS (et micro-ordinateurs), pas Mega Drive ; HardBall! est déjà présent."
+    },
+    {
+      "slug": "john-barnes-european-football",
+      "title": "John Barnes European Football",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://www.mobygames.com/game/13068/john-barnes-european-football/releases/amiga/",
+      "reason": "Amiga, Amiga CD32 et Atari ST, pas Mega Drive."
+    },
+    {
+      "slug": "manchester-united-championship-soccer",
+      "title": "Manchester United Championship Soccer",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Manchester_United_Championship_Soccer",
+      "reason": "Jeu Super NES, pas Mega Drive."
+    },
+    {
+      "slug": "manchester-united-europe",
+      "title": "Manchester United Europe",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Manchester_United_Europe",
+      "reason": "Jeu micro-ordinateurs et Lynx ; European Club Soccer, déjà présent, est le jeu Mega Drive fondé sur ce titre."
+    },
+    {
+      "slug": "manchester-united-premier-league-champions",
+      "title": "Manchester United Premier League Champions",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://www.mobygames.com/game/16109/manchester-united-premier-league-champions/credits/",
+      "reason": "Amiga, Amiga CD32 et DOS, pas Mega Drive."
+    },
+    {
+      "slug": "nfl-quarterback-club-97",
+      "title": "NFL Quarterback Club 97",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://www.mobygames.com/game/39504/nfl-quarterback-club/",
+      "reason": "Sorti sur DOS, PlayStation et Saturn ; NFL Quarterback Club 96 est la dernière édition Mega Drive et existe déjà."
+    },
+    {
+      "slug": "olympic-hockey-98",
+      "title": "Olympic Hockey 98",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://www.mobygames.com/game/55764/olympic-hockey-98/",
+      "reason": "Jeu Nintendo 64 uniquement, sans version Mega Drive."
+    },
+    {
+      "slug": "olympic-soccer",
+      "title": "Olympic Soccer",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://www.segaretro.org/List_of_Saturn_games_in_Germany",
+      "reason": "Jeu Saturn (également paru sur PlayStation/3DO), sans version Mega Drive."
+    },
+    {
+      "slug": "trivial-pursuit-genus-edition",
+      "title": "Trivial Pursuit: Genus Edition",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://www.mobygames.com/game/trivial-pursuit",
+      "reason": "Version Sega sur Master System, pas Mega Drive."
+    },
+    {
+      "slug": "wheel-of-fortune-deluxe-edition",
+      "title": "Wheel of Fortune: Deluxe Edition",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://snescentral.com/article.php?id=0753",
+      "reason": "Deluxe Edition est une version Super NES ; Wheel of Fortune est déjà présent sur Mega Drive."
+    },
+    {
+      "slug": "wimbledon-championship-tennis-ii",
+      "title": "Wimbledon Championship Tennis II",
+      "decision": "wrong-platform-entry-removed",
+      "sourceUrl": "https://www.mobygames.com/group/10982/wimbledon-series/",
+      "reason": "Wimbledon II est Master System ; Wimbledon Championship Tennis est déjà présent sur Mega Drive."
+    }
+  ]
+}

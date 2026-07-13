@@ -1,0 +1,13 @@
+[
+  {
+    "internalId": "raiden-trad",
+    "title": "Raiden Trad",
+    "sourceFilename": "Raiden Densetsu ~ Raiden Trad (Japan, USA) (En).png",
+    "path": "/gameplay/megadrive/raiden-trad-gameplay-1.webp",
+    "width": 320,
+    "height": 240,
+    "fileSize": 11504,
+    "confidence": 1,
+    "method": "override"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "battletoads-double-dragon": {
+    "sourceFilename": "Battletoads-Double Dragon (USA).png",
+    "reason": "Correction d’une collision de normalisation sur le séparateur / ; édition croisée exacte vérifiée"
+  },
+  "action-52": {
+    "sourceFilename": "Action 52 (USA) (Unl).png",
+    "reason": "Face avant Genesis exacte vérifiée visuellement ; sortie commerciale non licenciée par SEGA"
+  },
+  "exodus-journey-to-the-promised-land": {
+    "sourceFilename": "Exodus - Journey to the Promised Land (USA) (Unl).png",
+    "reason": "Face avant Genesis exacte vérifiée visuellement ; titre Wisdom Tree non licencié"
+  },
+  "the-games-summer-challenge": {
+    "sourceFilename": "Summer Challenge (USA, Europe) (Unl).png",
+    "reason": "Alias confirmé The Games: Summer Challenge / Summer Challenge et face avant Genesis vérifiée"
+  },
+  "hardball-iii": {
+    "sourceFilename": "HardBall III (USA) (Unl).png",
+    "reason": "Face avant Genesis exacte vérifiée visuellement"
+  },
+  "hardball": {
+    "sourceFilename": "HardBall! (USA, Europe) (Unl).png",
+    "reason": "Face avant Genesis exacte vérifiée visuellement"
+  },
+  "huan-le-tao-qi-shu-smart-mouse": {
+    "sourceFilename": "Huan Le Tao Qi Shu - Smart Mouse (China) (Unl).png",
+    "reason": "Face avant Mega Drive chinoise exacte vérifiée visuellement"
+  },
+  "joshua-the-battle-of-jericho": {
+    "sourceFilename": "Joshua _ the Battle of Jericho (USA) (Unl).png",
+    "reason": "Face avant Genesis exacte vérifiée visuellement ; titre Wisdom Tree non licencié"
+  },
+  "mike-ditka-power-football": {
+    "sourceFilename": "Mike Ditka Power Football (USA, Europe) (Unl).png",
+    "reason": "Face avant Genesis exacte vérifiée visuellement"
+  },
+  "star-control": {
+    "sourceFilename": "Star Control (USA, Europe) (Unl).png",
+    "reason": "Face avant Genesis exacte vérifiée visuellement"
+  }
+}

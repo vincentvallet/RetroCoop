@@ -1,0 +1,7 @@
+metric,value
+source_csv,jeux_megadrive_liste1.csv
+source_txt,jeux_megadrive_liste2.txt
+csv_rows,382
+unique_games,382
+conflicts,0
+unparsed,0

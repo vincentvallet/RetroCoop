@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-07-13T12:13:26.563Z",
+  "dryRun": false,
+  "totalGames": 371,
+  "selectedGames": 371,
+  "filesAnalyzed": 2352,
+  "validSourceImages": 2349,
+  "excludedVariants": 275,
+  "revisionFilesAvoided": 114,
+  "matched": 371,
+  "imported": 0,
+  "ambiguous": 0,
+  "missing": 0,
+  "invalid": 3,
+  "skippedProtected": 0,
+  "skippedExisting": 0,
+  "finalCovers": 371,
+  "coverage": 100,
+  "regions": {
+    "europe": 218,
+    "usa": 176,
+    "japan": 30
+  },
+  "excludedMarkers": [
+    "Beta",
+    "Proto",
+    "Prototype",
+    "Sample",
+    "Demo",
+    "Sega Channel",
+    "Mega Drive Mini",
+    "Genesis Mini",
+    "Aftermarket",
+    "Unl",
+    "Unlicensed",
+    "Hack"
+  ]
+}

@@ -1,0 +1,8 @@
+services:
+  db:
+    image: postgres:17.5-alpine
+    environment: {POSTGRES_USER: retrocoop, POSTGRES_PASSWORD: retrocoop, POSTGRES_DB: retrocoop}
+    ports: ["5434:5432"]
+    volumes: [retrocoop_db:/var/lib/postgresql/data]
+    healthcheck: {test: ["CMD-SHELL", "pg_isready -U retrocoop"], interval: 5s, timeout: 5s, retries: 10}
+volumes: {retrocoop_db: {}}

@@ -1,0 +1,170 @@
+{
+  "generatedAt": "2026-07-13T11:14:11.550Z",
+  "games": [
+    {
+      "internalId": "hardball-ii",
+      "title": "HardBall II",
+      "aliases": [],
+      "year": 1993,
+      "region": "USA",
+      "edition": null,
+      "suggestedQueries": [
+        "HardBall II Mega Drive Europe box art",
+        "HardBall II Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "hardball-ii.webp",
+      "expectedOutputPath": "public/covers/megadrive/hardball-ii.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    },
+    {
+      "internalId": "john-barnes-european-football",
+      "title": "John Barnes European Football",
+      "aliases": [],
+      "year": 1992,
+      "region": "Europe",
+      "edition": null,
+      "suggestedQueries": [
+        "John Barnes European Football Mega Drive Europe box art",
+        "John Barnes European Football Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "john-barnes-european-football.webp",
+      "expectedOutputPath": "public/covers/megadrive/john-barnes-european-football.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    },
+    {
+      "internalId": "manchester-united-championship-soccer",
+      "title": "Manchester United Championship Soccer",
+      "aliases": [],
+      "year": 1995,
+      "region": "Europe",
+      "edition": null,
+      "suggestedQueries": [
+        "Manchester United Championship Soccer Mega Drive Europe box art",
+        "Manchester United Championship Soccer Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "manchester-united-championship-soccer.webp",
+      "expectedOutputPath": "public/covers/megadrive/manchester-united-championship-soccer.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    },
+    {
+      "internalId": "manchester-united-europe",
+      "title": "Manchester United Europe",
+      "aliases": [],
+      "year": 1991,
+      "region": "Europe",
+      "edition": null,
+      "suggestedQueries": [
+        "Manchester United Europe Mega Drive Europe box art",
+        "Manchester United Europe Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "manchester-united-europe.webp",
+      "expectedOutputPath": "public/covers/megadrive/manchester-united-europe.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    },
+    {
+      "internalId": "manchester-united-premier-league-champions",
+      "title": "Manchester United Premier League Champions",
+      "aliases": [],
+      "year": 1994,
+      "region": "Europe",
+      "edition": null,
+      "suggestedQueries": [
+        "Manchester United Premier League Champions Mega Drive Europe box art",
+        "Manchester United Premier League Champions Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "manchester-united-premier-league-champions.webp",
+      "expectedOutputPath": "public/covers/megadrive/manchester-united-premier-league-champions.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    },
+    {
+      "internalId": "nfl-quarterback-club-97",
+      "title": "NFL Quarterback Club 97",
+      "aliases": [],
+      "year": 1996,
+      "region": "USA, Europe",
+      "edition": null,
+      "suggestedQueries": [
+        "NFL Quarterback Club 97 Mega Drive Europe box art",
+        "NFL Quarterback Club 97 Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "nfl-quarterback-club-97.webp",
+      "expectedOutputPath": "public/covers/megadrive/nfl-quarterback-club-97.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    },
+    {
+      "internalId": "olympic-hockey-98",
+      "title": "Olympic Hockey 98",
+      "aliases": [],
+      "year": 1998,
+      "region": "USA",
+      "edition": null,
+      "suggestedQueries": [
+        "Olympic Hockey 98 Mega Drive Europe box art",
+        "Olympic Hockey 98 Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "olympic-hockey-98.webp",
+      "expectedOutputPath": "public/covers/megadrive/olympic-hockey-98.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    },
+    {
+      "internalId": "olympic-soccer",
+      "title": "Olympic Soccer",
+      "aliases": [],
+      "year": 1996,
+      "region": "USA, Europe",
+      "edition": null,
+      "suggestedQueries": [
+        "Olympic Soccer Mega Drive Europe box art",
+        "Olympic Soccer Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "olympic-soccer.webp",
+      "expectedOutputPath": "public/covers/megadrive/olympic-soccer.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    },
+    {
+      "internalId": "trivial-pursuit-genus-edition",
+      "title": "Trivial Pursuit: Genus Edition",
+      "aliases": [],
+      "year": 1992,
+      "region": "Europe",
+      "edition": null,
+      "suggestedQueries": [
+        "Trivial Pursuit: Genus Edition Mega Drive Europe box art",
+        "Trivial Pursuit: Genus Edition Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "trivial-pursuit-genus-edition.webp",
+      "expectedOutputPath": "public/covers/megadrive/trivial-pursuit-genus-edition.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    },
+    {
+      "internalId": "wheel-of-fortune-deluxe-edition",
+      "title": "Wheel of Fortune: Deluxe Edition",
+      "aliases": [],
+      "year": 1994,
+      "region": "USA",
+      "edition": null,
+      "suggestedQueries": [
+        "Wheel of Fortune: Deluxe Edition Mega Drive Europe box art",
+        "Wheel of Fortune: Deluxe Edition Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "wheel-of-fortune-deluxe-edition.webp",
+      "expectedOutputPath": "public/covers/megadrive/wheel-of-fortune-deluxe-edition.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    },
+    {
+      "internalId": "wimbledon-championship-tennis-ii",
+      "title": "Wimbledon Championship Tennis II",
+      "aliases": [],
+      "year": 1993,
+      "region": "USA",
+      "edition": null,
+      "suggestedQueries": [
+        "Wimbledon Championship Tennis II Mega Drive Europe box art",
+        "Wimbledon Championship Tennis II Sega Genesis front cover"
+      ],
+      "expectedOutputFilename": "wimbledon-championship-tennis-ii.webp",
+      "expectedOutputPath": "public/covers/megadrive/wimbledon-championship-tennis-ii.webp",
+      "warning": "Valider la plateforme Mega Drive/Genesis et la face avant avant tout import manuel."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "totalGames": 371,
+  "descriptionsRenderedInCatalogue": 0,
+  "descriptionsRenderedInGameDetails": 1,
+  "gameDetailsRequireNetworkRequest": true,
+  "adjacentImagesArePreloaded": false,
+  "sessionPostReturnsSuccess": true,
+  "sessionCreatedInDatabase": true,
+  "sessionReturnedByListEndpoint": false,
+  "sessionVisibleWithoutReload": false,
+  "sessionVisibleAfterReload": false,
+  "authenticationPersists": true,
+  "databaseEngine": "PostgreSQL",
+  "productionDatabaseReady": false
+}

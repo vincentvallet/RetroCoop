@@ -1,0 +1,6530 @@
+{
+  "generatedAt": "2026-07-13T11:14:11.547Z",
+  "sourceDirectory": ".cache/libretro-megadrive-thumbnails/Named_Boxarts",
+  "games": [
+    {
+      "internalId": "action-52",
+      "catalogueTitle": "Action 52",
+      "slug": "action-52",
+      "year": 1993,
+      "alternativeTitles": [],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/action-52.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "Action 52 (USA) (Unl).png",
+      "finalRegion": "USA",
+      "finalConfidence": 1,
+      "method": "override",
+      "candidates": [
+        {
+          "sourceFilename": "Action 52 (USA) (Unl).png",
+          "candidateTitle": "Action 52",
+          "normalizedTitle": "action 52",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 256,
+          "height": 350,
+          "score": 0.96,
+          "matchingTokens": [
+            "action",
+            "52"
+          ],
+          "missingTokens": [],
+          "extraTokens": [],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": true,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Action '95 Starring David Robinson (Europe).png",
+          "candidateTitle": "NBA Action '95 Starring David Robinson",
+          "normalizedTitle": "nba action 95 starring david robinson",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "action"
+          ],
+          "missingTokens": [
+            "52"
+          ],
+          "extraTokens": [
+            "nba",
+            "95",
+            "starring",
+            "david",
+            "robinson"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Puzzle _ Action - Ichidanto-R (World) (Ja) (Sega Ages).png",
+          "candidateTitle": "Puzzle _ Action - Ichidanto-R (Sega Ages)",
+          "normalizedTitle": "puzzle and action ichidanto r sega ages",
+          "region": [
+            "World"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 484,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "action"
+          ],
+          "missingTokens": [
+            "52"
+          ],
+          "extraTokens": [
+            "puzzle",
+            "and",
+            "ichidanto",
+            "r",
+            "sega",
+            "ages"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Last Action Hero (USA, Europe).png",
+          "candidateTitle": "Last Action Hero",
+          "normalizedTitle": "last action hero",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.2,
+          "matchingTokens": [
+            "action"
+          ],
+          "missingTokens": [
+            "52"
+          ],
+          "extraTokens": [
+            "last",
+            "hero"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Action '95 Starring David Robinson (USA, Europe).png",
+          "candidateTitle": "NBA Action '95 Starring David Robinson",
+          "normalizedTitle": "nba action 95 starring david robinson",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.1229,
+          "matchingTokens": [
+            "action"
+          ],
+          "missingTokens": [
+            "52"
+          ],
+          "extraTokens": [
+            "nba",
+            "95",
+            "starring",
+            "david",
+            "robinson"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Action 52 (USA) (Alt 1) (Unl).png",
+          "candidateTitle": "Action 52 (Alt 1)",
+          "normalizedTitle": "action 52 alt 1",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 256,
+          "height": 350,
+          "score": 0.38,
+          "matchingTokens": [
+            "action",
+            "52"
+          ],
+          "missingTokens": [],
+          "extraTokens": [
+            "alt",
+            "1"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Last Action Hero (USA).png",
+          "candidateTitle": "Last Action Hero",
+          "normalizedTitle": "last action hero",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 484,
+          "height": 680,
+          "score": 0.2,
+          "matchingTokens": [
+            "action"
+          ],
+          "missingTokens": [
+            "52"
+          ],
+          "extraTokens": [
+            "last",
+            "hero"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Action '94 (USA).png",
+          "candidateTitle": "NBA Action '94",
+          "normalizedTitle": "nba action 94",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.2,
+          "matchingTokens": [
+            "action"
+          ],
+          "missingTokens": [
+            "52"
+          ],
+          "extraTokens": [
+            "nba",
+            "94"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Puzzle _ Action - Ichidanto-R (Japan).png",
+          "candidateTitle": "Puzzle _ Action - Ichidanto-R",
+          "normalizedTitle": "puzzle and action ichidanto r",
+          "region": [
+            "Japan"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "action"
+          ],
+          "missingTokens": [
+            "52"
+          ],
+          "extraTokens": [
+            "puzzle",
+            "and",
+            "ichidanto",
+            "r"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Puzzle _ Action - Tanto-R (Japan).png",
+          "candidateTitle": "Puzzle _ Action - Tanto-R",
+          "normalizedTitle": "puzzle and action tanto r",
+          "region": [
+            "Japan"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "action"
+          ],
+          "missingTokens": [
+            "52"
+          ],
+          "extraTokens": [
+            "puzzle",
+            "and",
+            "tanto",
+            "r"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "exodus-journey-to-the-promised-land",
+      "catalogueTitle": "Exodus: Journey to the Promised Land",
+      "slug": "exodus-journey-to-the-promised-land",
+      "year": 1993,
+      "alternativeTitles": [],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/exodus-journey-to-the-promised-land.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "Exodus - Journey to the Promised Land (USA) (Unl).png",
+      "finalRegion": "USA",
+      "finalConfidence": 1,
+      "method": "override",
+      "candidates": [
+        {
+          "sourceFilename": "Exodus - Journey to the Promised Land (USA) (Unl).png",
+          "candidateTitle": "Exodus - Journey to the Promised Land",
+          "normalizedTitle": "exodus journey to the promised land",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 256,
+          "height": 361,
+          "score": 0.96,
+          "matchingTokens": [
+            "exodus",
+            "journey",
+            "to",
+            "the",
+            "promised",
+            "land"
+          ],
+          "missingTokens": [],
+          "extraTokens": [],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": true,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Back to the Future Part III (Europe).png",
+          "candidateTitle": "Back to the Future Part III",
+          "normalizedTitle": "back to the future part 3",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 256,
+          "height": 349,
+          "score": 0.204,
+          "matchingTokens": [
+            "to",
+            "the"
+          ],
+          "missingTokens": [
+            "exodus",
+            "journey",
+            "promised",
+            "land"
+          ],
+          "extraTokens": [
+            "back",
+            "future",
+            "part",
+            "3"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Flintstones, The (Europe).png",
+          "candidateTitle": "Flintstones, The",
+          "normalizedTitle": "the flintstones",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "exodus",
+            "journey",
+            "to",
+            "promised",
+            "land"
+          ],
+          "extraTokens": [
+            "flintstones"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Ooze, The (Europe).png",
+          "candidateTitle": "Ooze, The",
+          "normalizedTitle": "the ooze",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "exodus",
+            "journey",
+            "to",
+            "promised",
+            "land"
+          ],
+          "extraTokens": [
+            "ooze"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Ottifants, The (Europe) (En,Fr,De,Es,It).png",
+          "candidateTitle": "Ottifants, The",
+          "normalizedTitle": "the ottifants",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "exodus",
+            "journey",
+            "to",
+            "promised",
+            "land"
+          ],
+          "extraTokens": [
+            "ottifants"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Pagemaster, The (Europe).png",
+          "candidateTitle": "Pagemaster, The",
+          "normalizedTitle": "the pagemaster",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "exodus",
+            "journey",
+            "to",
+            "promised",
+            "land"
+          ],
+          "extraTokens": [
+            "pagemaster"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Punisher, The (Europe).png",
+          "candidateTitle": "Punisher, The",
+          "normalizedTitle": "the punisher",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "exodus",
+            "journey",
+            "to",
+            "promised",
+            "land"
+          ],
+          "extraTokens": [
+            "punisher"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Smurfs, The (Europe) (En,Fr,De,Es,It).png",
+          "candidateTitle": "Smurfs, The",
+          "normalizedTitle": "the smurfs",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "exodus",
+            "journey",
+            "to",
+            "promised",
+            "land"
+          ],
+          "extraTokens": [
+            "smurfs"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Terminator, The (Europe).png",
+          "candidateTitle": "Terminator, The",
+          "normalizedTitle": "the terminator",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "exodus",
+            "journey",
+            "to",
+            "promised",
+            "land"
+          ],
+          "extraTokens": [
+            "terminator"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Addams Family, The (Europe).png",
+          "candidateTitle": "Addams Family, The",
+          "normalizedTitle": "the addams family",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 702,
+          "score": 0.15,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "exodus",
+            "journey",
+            "to",
+            "promised",
+            "land"
+          ],
+          "extraTokens": [
+            "addams",
+            "family"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "the-games-summer-challenge",
+      "catalogueTitle": "The Games: Summer Challenge",
+      "slug": "the-games-summer-challenge",
+      "year": null,
+      "alternativeTitles": [
+        "Summer Challenge"
+      ],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/the-games-summer-challenge.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "Summer Challenge (USA, Europe) (Unl).png",
+      "finalRegion": "USA, Europe",
+      "finalConfidence": 1,
+      "method": "override",
+      "candidates": [
+        {
+          "sourceFilename": "Summer Challenge (USA, Europe) (Unl).png",
+          "candidateTitle": "Summer Challenge",
+          "normalizedTitle": "summer challenge",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 256,
+          "height": 361,
+          "score": 0.66,
+          "matchingTokens": [
+            "summer",
+            "challenge"
+          ],
+          "missingTokens": [
+            "the",
+            "games"
+          ],
+          "extraTokens": [],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": true
+        },
+        {
+          "sourceFilename": "Olympic Summer Games (Europe).png",
+          "candidateTitle": "Olympic Summer Games",
+          "normalizedTitle": "olympic summer games",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.348,
+          "matchingTokens": [
+            "games",
+            "summer"
+          ],
+          "missingTokens": [
+            "the",
+            "challenge"
+          ],
+          "extraTokens": [
+            "olympic"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Flintstones, The (Europe).png",
+          "candidateTitle": "Flintstones, The",
+          "normalizedTitle": "the flintstones",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "games",
+            "summer",
+            "challenge"
+          ],
+          "extraTokens": [
+            "flintstones"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Ooze, The (Europe).png",
+          "candidateTitle": "Ooze, The",
+          "normalizedTitle": "the ooze",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "games",
+            "summer",
+            "challenge"
+          ],
+          "extraTokens": [
+            "ooze"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Ottifants, The (Europe) (En,Fr,De,Es,It).png",
+          "candidateTitle": "Ottifants, The",
+          "normalizedTitle": "the ottifants",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "games",
+            "summer",
+            "challenge"
+          ],
+          "extraTokens": [
+            "ottifants"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Pagemaster, The (Europe).png",
+          "candidateTitle": "Pagemaster, The",
+          "normalizedTitle": "the pagemaster",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "games",
+            "summer",
+            "challenge"
+          ],
+          "extraTokens": [
+            "pagemaster"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Punisher, The (Europe).png",
+          "candidateTitle": "Punisher, The",
+          "normalizedTitle": "the punisher",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "games",
+            "summer",
+            "challenge"
+          ],
+          "extraTokens": [
+            "punisher"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Smurfs, The (Europe) (En,Fr,De,Es,It).png",
+          "candidateTitle": "Smurfs, The",
+          "normalizedTitle": "the smurfs",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "games",
+            "summer",
+            "challenge"
+          ],
+          "extraTokens": [
+            "smurfs"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Terminator, The (Europe).png",
+          "candidateTitle": "Terminator, The",
+          "normalizedTitle": "the terminator",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "games",
+            "summer",
+            "challenge"
+          ],
+          "extraTokens": [
+            "terminator"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Addams Family, The (Europe).png",
+          "candidateTitle": "Addams Family, The",
+          "normalizedTitle": "the addams family",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 702,
+          "score": 0.18,
+          "matchingTokens": [
+            "the"
+          ],
+          "missingTokens": [
+            "games",
+            "summer",
+            "challenge"
+          ],
+          "extraTokens": [
+            "addams",
+            "family"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "hardball-ii",
+      "catalogueTitle": "HardBall II",
+      "slug": "hardball-ii",
+      "year": 1993,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": [
+        {
+          "sourceFilename": "Bubsy II (Europe).png",
+          "candidateTitle": "Bubsy II",
+          "normalizedTitle": "bubsy 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "bubsy"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Paperboy 2 (Europe).png",
+          "candidateTitle": "Paperboy 2",
+          "normalizedTitle": "paperboy 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "paperboy"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Predator 2 (Europe).png",
+          "candidateTitle": "Predator 2",
+          "normalizedTitle": "predator 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "predator"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Speedball 2 (Europe).png",
+          "candidateTitle": "Speedball 2",
+          "normalizedTitle": "speedball 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "speedball"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Splatterhouse 2 (Europe).png",
+          "candidateTitle": "Splatterhouse 2",
+          "normalizedTitle": "splatterhouse 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "splatterhouse"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Strider II (Europe).png",
+          "candidateTitle": "Strider II",
+          "normalizedTitle": "strider 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "strider"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Earthworm Jim 2 (Europe).png",
+          "candidateTitle": "Earthworm Jim 2",
+          "normalizedTitle": "earthworm jim 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "earthworm",
+            "jim"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Golden Axe II (Europe).png",
+          "candidateTitle": "Golden Axe II",
+          "normalizedTitle": "golden axe 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "golden",
+            "axe"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mega Games 2 (Europe).png",
+          "candidateTitle": "Mega Games 2",
+          "normalizedTitle": "mega games 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "mega",
+            "games"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mortal Kombat II (Europe).png",
+          "candidateTitle": "Mortal Kombat II",
+          "normalizedTitle": "mortal kombat 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "mortal",
+            "kombat"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "hardball-iii",
+      "catalogueTitle": "HardBall III",
+      "slug": "hardball-iii",
+      "year": 1993,
+      "alternativeTitles": [],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/hardball-iii.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "HardBall III (USA) (Unl).png",
+      "finalRegion": "USA",
+      "finalConfidence": 1,
+      "method": "override",
+      "candidates": [
+        {
+          "sourceFilename": "HardBall III (USA) (Unl).png",
+          "candidateTitle": "HardBall III",
+          "normalizedTitle": "hardball 3",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 256,
+          "height": 359,
+          "score": 0.96,
+          "matchingTokens": [
+            "hardball",
+            "3"
+          ],
+          "missingTokens": [],
+          "extraTokens": [],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": true,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "RoboCop 3 (Europe).png",
+          "candidateTitle": "RoboCop 3",
+          "normalizedTitle": "robocop 3",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 481,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "3"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "robocop"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Sonic 3 (Europe).png",
+          "candidateTitle": "Sonic 3",
+          "normalizedTitle": "sonic 3",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "3"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "sonic"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mega Games 3 (Europe, Asia) (En).png",
+          "candidateTitle": "Mega Games 3",
+          "normalizedTitle": "mega games 3",
+          "region": [
+            "Europe",
+            "Asia"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 484,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "3"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "mega",
+            "games"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mega Games 3 (Europe, Asia).png",
+          "candidateTitle": "Mega Games 3",
+          "normalizedTitle": "mega games 3",
+          "region": [
+            "Europe",
+            "Asia"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "3"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "mega",
+            "games"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mortal Kombat 3 (Europe).png",
+          "candidateTitle": "Mortal Kombat 3",
+          "normalizedTitle": "mortal kombat 3",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "3"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "mortal",
+            "kombat"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Road Rash 3 (Europe).png",
+          "candidateTitle": "Road Rash 3",
+          "normalizedTitle": "road rash 3",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "3"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "road",
+            "rash"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Thunder Force III (Europe).png",
+          "candidateTitle": "Thunder Force III",
+          "normalizedTitle": "thunder force 3",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "3"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "thunder",
+            "force"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mega 6 Vol. 3 (Europe).png",
+          "candidateTitle": "Mega 6 Vol. 3",
+          "normalizedTitle": "mega 6 vol 3",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "3"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "mega",
+            "6",
+            "vol"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Streets of Rage 3 (Europe).png",
+          "candidateTitle": "Streets of Rage 3",
+          "normalizedTitle": "streets of rage 3",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "3"
+          ],
+          "missingTokens": [
+            "hardball"
+          ],
+          "extraTokens": [
+            "streets",
+            "of",
+            "rage"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "hardball",
+      "catalogueTitle": "HardBall!",
+      "slug": "hardball",
+      "year": 1991,
+      "alternativeTitles": [],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/hardball.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "HardBall! (USA, Europe) (Unl).png",
+      "finalRegion": "USA, Europe",
+      "finalConfidence": 1,
+      "method": "override",
+      "candidates": [
+        {
+          "sourceFilename": "HardBall! (USA, Europe) (Unl).png",
+          "candidateTitle": "HardBall!",
+          "normalizedTitle": "hardball",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.96,
+          "matchingTokens": [
+            "hardball"
+          ],
+          "missingTokens": [],
+          "extraTokens": [],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": true,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "HardBall '94 (Europe).png",
+          "candidateTitle": "HardBall '94",
+          "normalizedTitle": "hardball 94",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.42,
+          "matchingTokens": [
+            "hardball"
+          ],
+          "missingTokens": [],
+          "extraTokens": [
+            "94"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "HardBall '94 (USA, Europe).png",
+          "candidateTitle": "HardBall '94",
+          "normalizedTitle": "hardball 94",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.38,
+          "matchingTokens": [
+            "hardball"
+          ],
+          "missingTokens": [],
+          "extraTokens": [
+            "94"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "HardBall '95 (USA).png",
+          "candidateTitle": "HardBall '95",
+          "normalizedTitle": "hardball 95",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.38,
+          "matchingTokens": [
+            "hardball"
+          ],
+          "missingTokens": [],
+          "extraTokens": [
+            "95"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "HardBall III (USA) (Unl).png",
+          "candidateTitle": "HardBall III",
+          "normalizedTitle": "hardball 3",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 256,
+          "height": 359,
+          "score": 0.38,
+          "matchingTokens": [
+            "hardball"
+          ],
+          "missingTokens": [],
+          "extraTokens": [
+            "3"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "huan-le-tao-qi-shu-smart-mouse",
+      "catalogueTitle": "Huan Le Tao Qi Shu: Smart Mouse",
+      "slug": "huan-le-tao-qi-shu-smart-mouse",
+      "year": null,
+      "alternativeTitles": [],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/huan-le-tao-qi-shu-smart-mouse.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "Huan Le Tao Qi Shu - Smart Mouse (China) (Unl).png",
+      "finalRegion": "China",
+      "finalConfidence": 1,
+      "method": "override",
+      "candidates": [
+        {
+          "sourceFilename": "Huan Le Tao Qi Shu - Smart Mouse (China) (Unl).png",
+          "candidateTitle": "Huan Le Tao Qi Shu - Smart Mouse",
+          "normalizedTitle": "huan le tao qi shu smart mouse",
+          "region": [
+            "China"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 256,
+          "height": 359,
+          "score": 0.96,
+          "matchingTokens": [
+            "huan",
+            "le",
+            "tao",
+            "qi",
+            "shu",
+            "smart",
+            "mouse"
+          ],
+          "missingTokens": [],
+          "extraTokens": [],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": true,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Landstalker - Le Tresor du Roi Nole (France) (Mega Drive Mini).png",
+          "candidateTitle": "Landstalker - Le Tresor du Roi Nole",
+          "normalizedTitle": "landstalker le tresor du roi nole",
+          "region": [
+            "France"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Mega Drive Mini"
+          ],
+          "validImage": true,
+          "width": 484,
+          "height": 680,
+          "score": 0.12,
+          "matchingTokens": [
+            "le"
+          ],
+          "missingTokens": [
+            "huan",
+            "tao",
+            "qi",
+            "shu",
+            "smart",
+            "mouse"
+          ],
+          "extraTokens": [
+            "landstalker",
+            "tresor",
+            "du",
+            "roi",
+            "nole"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Landstalker - Le Tresor du Roi Nole (France).png",
+          "candidateTitle": "Landstalker - Le Tresor du Roi Nole",
+          "normalizedTitle": "landstalker le tresor du roi nole",
+          "region": [
+            "France"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 256,
+          "height": 362,
+          "score": 0.12,
+          "matchingTokens": [
+            "le"
+          ],
+          "missingTokens": [
+            "huan",
+            "tao",
+            "qi",
+            "shu",
+            "smart",
+            "mouse"
+          ],
+          "extraTokens": [
+            "landstalker",
+            "tresor",
+            "du",
+            "roi",
+            "nole"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "john-barnes-european-football",
+      "catalogueTitle": "John Barnes European Football",
+      "slug": "john-barnes-european-football",
+      "year": 1992,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": [
+        {
+          "sourceFilename": "John Madden American Football (Europe).png",
+          "candidateTitle": "John Madden American Football",
+          "normalizedTitle": "john madden american football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "john",
+            "football"
+          ],
+          "missingTokens": [
+            "barnes",
+            "european"
+          ],
+          "extraTokens": [
+            "madden",
+            "american"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "John Madden Football '92 (Europe).png",
+          "candidateTitle": "John Madden Football '92",
+          "normalizedTitle": "john madden football 92",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 480,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "john",
+            "football"
+          ],
+          "missingTokens": [
+            "barnes",
+            "european"
+          ],
+          "extraTokens": [
+            "madden",
+            "92"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "John Madden Football '93 (Europe).png",
+          "candidateTitle": "John Madden Football '93",
+          "normalizedTitle": "john madden football 93",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "john",
+            "football"
+          ],
+          "missingTokens": [
+            "barnes",
+            "european"
+          ],
+          "extraTokens": [
+            "madden",
+            "93"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Total Football (Europe).png",
+          "candidateTitle": "Total Football",
+          "normalizedTitle": "total football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "john",
+            "barnes",
+            "european"
+          ],
+          "extraTokens": [
+            "total"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "European Club Soccer (Europe).png",
+          "candidateTitle": "European Club Soccer",
+          "normalizedTitle": "european club soccer",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "european"
+          ],
+          "missingTokens": [
+            "john",
+            "barnes",
+            "football"
+          ],
+          "extraTokens": [
+            "club",
+            "soccer"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Joe Montana Football (Europe).png",
+          "candidateTitle": "Joe Montana Football",
+          "normalizedTitle": "joe montana football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "john",
+            "barnes",
+            "european"
+          ],
+          "extraTokens": [
+            "joe",
+            "montana"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mutant League Football (Europe).png",
+          "candidateTitle": "Mutant League Football",
+          "normalizedTitle": "mutant league football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 477,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "john",
+            "barnes",
+            "european"
+          ],
+          "extraTokens": [
+            "mutant",
+            "league"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Bill Walsh College Football (Europe).png",
+          "candidateTitle": "Bill Walsh College Football",
+          "normalizedTitle": "bill walsh college football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "john",
+            "barnes",
+            "european"
+          ],
+          "extraTokens": [
+            "bill",
+            "walsh",
+            "college"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Marko's Magic Football (Europe) (En,Fr,De,Es) (Beta).png",
+          "candidateTitle": "Marko's Magic Football",
+          "normalizedTitle": "marko s magic football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "john",
+            "barnes",
+            "european"
+          ],
+          "extraTokens": [
+            "marko",
+            "s",
+            "magic"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Marko's Magic Football (Europe) (En,Fr,De,Es).png",
+          "candidateTitle": "Marko's Magic Football",
+          "normalizedTitle": "marko s magic football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "john",
+            "barnes",
+            "european"
+          ],
+          "extraTokens": [
+            "marko",
+            "s",
+            "magic"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "john-madden-football-94",
+      "catalogueTitle": "John Madden Football '94",
+      "slug": "john-madden-football-94",
+      "year": 1992,
+      "alternativeTitles": [
+        "Madden NFL '94"
+      ],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/john-madden-football-94.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "Madden NFL '94 (Europe).png",
+      "finalRegion": "Europe",
+      "finalConfidence": 1,
+      "method": "alias",
+      "candidates": [
+        {
+          "sourceFilename": "Madden NFL '94 (Europe).png",
+          "candidateTitle": "Madden NFL '94",
+          "normalizedTitle": "madden nfl 94",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.628,
+          "matchingTokens": [
+            "madden",
+            "94"
+          ],
+          "missingTokens": [
+            "john",
+            "football"
+          ],
+          "extraTokens": [
+            "nfl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": true
+        },
+        {
+          "sourceFilename": "Madden NFL '94 (USA, Europe).png",
+          "candidateTitle": "Madden NFL '94",
+          "normalizedTitle": "madden nfl 94",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.588,
+          "matchingTokens": [
+            "madden",
+            "94"
+          ],
+          "missingTokens": [
+            "john",
+            "football"
+          ],
+          "extraTokens": [
+            "nfl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": true
+        },
+        {
+          "sourceFilename": "HardBall '94 (Europe).png",
+          "candidateTitle": "HardBall '94",
+          "normalizedTitle": "hardball 94",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "94"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "hardball"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NHL '94 (Europe).png",
+          "candidateTitle": "NHL '94",
+          "normalizedTitle": "nhl 94",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "94"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "nhl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Showdown '94 (Europe).png",
+          "candidateTitle": "NBA Showdown '94",
+          "normalizedTitle": "nba showdown 94",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "94"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "nba",
+            "showdown"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "World Cup USA 94 (Europe).png",
+          "candidateTitle": "World Cup USA 94",
+          "normalizedTitle": "world cup usa 94",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "94"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "world",
+            "cup",
+            "usa"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "R.B.I. Baseball '94 (Europe).png",
+          "candidateTitle": "R.B.I. Baseball '94",
+          "normalizedTitle": "r b 1 baseball 94",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "94"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "r",
+            "b",
+            "1",
+            "baseball"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "HardBall '94 (USA, Europe).png",
+          "candidateTitle": "HardBall '94",
+          "normalizedTitle": "hardball 94",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.164,
+          "matchingTokens": [
+            "94"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "hardball"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NHL '94 (USA, Europe).png",
+          "candidateTitle": "NHL '94",
+          "normalizedTitle": "nhl 94",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.164,
+          "matchingTokens": [
+            "94"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "nhl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Showdown '94 (USA, Europe).png",
+          "candidateTitle": "NBA Showdown '94",
+          "normalizedTitle": "nba showdown 94",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "94"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "nba",
+            "showdown"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "john-madden-football-95",
+      "catalogueTitle": "John Madden Football '95",
+      "slug": "john-madden-football-95",
+      "year": 1992,
+      "alternativeTitles": [
+        "Madden NFL 95"
+      ],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/john-madden-football-95.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "Madden NFL 95 (Europe).png",
+      "finalRegion": "Europe",
+      "finalConfidence": 1,
+      "method": "alias",
+      "candidates": [
+        {
+          "sourceFilename": "Madden NFL 95 (Europe).png",
+          "candidateTitle": "Madden NFL 95",
+          "normalizedTitle": "madden nfl 95",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.628,
+          "matchingTokens": [
+            "madden",
+            "95"
+          ],
+          "missingTokens": [
+            "john",
+            "football"
+          ],
+          "extraTokens": [
+            "nfl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": true
+        },
+        {
+          "sourceFilename": "Madden NFL 95 (USA, Europe).png",
+          "candidateTitle": "Madden NFL 95",
+          "normalizedTitle": "madden nfl 95",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.588,
+          "matchingTokens": [
+            "madden",
+            "95"
+          ],
+          "missingTokens": [
+            "john",
+            "football"
+          ],
+          "extraTokens": [
+            "nfl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": true
+        },
+        {
+          "sourceFilename": "NHL 95 (Europe).png",
+          "candidateTitle": "NHL 95",
+          "normalizedTitle": "nhl 95",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "95"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "nhl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Live 95 (Europe).png",
+          "candidateTitle": "NBA Live 95",
+          "normalizedTitle": "nba live 95",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "95"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "nba",
+            "live"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Action '95 Starring David Robinson (Europe).png",
+          "candidateTitle": "NBA Action '95 Starring David Robinson",
+          "normalizedTitle": "nba action 95 starring david robinson",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "95"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "nba",
+            "action",
+            "starring",
+            "david",
+            "robinson"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NFL '95 (USA, Europe).png",
+          "candidateTitle": "NFL '95",
+          "normalizedTitle": "nfl 95",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 256,
+          "height": 360,
+          "score": 0.164,
+          "matchingTokens": [
+            "95"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "nfl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NHL 95 (USA, Europe).png",
+          "candidateTitle": "NHL 95",
+          "normalizedTitle": "nhl 95",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.164,
+          "matchingTokens": [
+            "95"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "nhl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "FIFA Soccer 95 (USA, Europe) (En,Fr,De,Es).png",
+          "candidateTitle": "FIFA Soccer 95",
+          "normalizedTitle": "fifa soccer 95",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "95"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "fifa",
+            "soccer"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Live 95 (USA, Europe).png",
+          "candidateTitle": "NBA Live 95",
+          "normalizedTitle": "nba live 95",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "95"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "nba",
+            "live"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Rugby World Cup 95 (USA, Europe) (En,Fr,It).png",
+          "candidateTitle": "Rugby World Cup 95",
+          "normalizedTitle": "rugby world cup 95",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1229,
+          "matchingTokens": [
+            "95"
+          ],
+          "missingTokens": [
+            "john",
+            "madden",
+            "football"
+          ],
+          "extraTokens": [
+            "rugby",
+            "world",
+            "cup"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "joshua-the-battle-of-jericho",
+      "catalogueTitle": "Joshua & the Battle of Jericho",
+      "slug": "joshua-the-battle-of-jericho",
+      "year": 1992,
+      "alternativeTitles": [],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/joshua-the-battle-of-jericho.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "Joshua _ the Battle of Jericho (USA) (Unl).png",
+      "finalRegion": "USA",
+      "finalConfidence": 1,
+      "method": "override",
+      "candidates": [
+        {
+          "sourceFilename": "Joshua _ the Battle of Jericho (USA) (Unl).png",
+          "candidateTitle": "Joshua _ the Battle of Jericho",
+          "normalizedTitle": "joshua and the battle of jericho",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 256,
+          "height": 373,
+          "score": 0.96,
+          "matchingTokens": [
+            "joshua",
+            "and",
+            "the",
+            "battle",
+            "of",
+            "jericho"
+          ],
+          "missingTokens": [],
+          "extraTokens": [],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": true,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Adventures of Batman _ Robin, The (Europe).png",
+          "candidateTitle": "Adventures of Batman _ Robin, The",
+          "normalizedTitle": "the adventures of batman and robin",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 726,
+          "score": 0.3,
+          "matchingTokens": [
+            "and",
+            "the",
+            "of"
+          ],
+          "missingTokens": [
+            "joshua",
+            "battle",
+            "jericho"
+          ],
+          "extraTokens": [
+            "adventures",
+            "batman",
+            "robin"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Asterix and the Power of the Gods (Europe) (En,Fr,De,Es).png",
+          "candidateTitle": "Asterix and the Power of the Gods",
+          "normalizedTitle": "asterix and the power of the gods",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "and",
+            "the",
+            "of"
+          ],
+          "missingTokens": [
+            "joshua",
+            "battle",
+            "jericho"
+          ],
+          "extraTokens": [
+            "asterix",
+            "power",
+            "gods"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Death and Return of Superman, The (Europe).png",
+          "candidateTitle": "Death and Return of Superman, The",
+          "normalizedTitle": "the death and return of superman",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "and",
+            "the",
+            "of"
+          ],
+          "missingTokens": [
+            "joshua",
+            "battle",
+            "jericho"
+          ],
+          "extraTokens": [
+            "death",
+            "return",
+            "superman"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Prince of Persia 2 - The Shadow and the Flame (Europe) (Proto).png",
+          "candidateTitle": "Prince of Persia 2 - The Shadow and the Flame",
+          "normalizedTitle": "prince of persia 2 the shadow and the flame",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Proto"
+          ],
+          "validImage": true,
+          "width": 512,
+          "height": 698,
+          "score": 0.2564,
+          "matchingTokens": [
+            "and",
+            "the",
+            "of"
+          ],
+          "missingTokens": [
+            "joshua",
+            "battle",
+            "jericho"
+          ],
+          "extraTokens": [
+            "prince",
+            "persia",
+            "2",
+            "shadow",
+            "flame"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Ballz 3D - Fighting at Its Ballziest ~ Ballz 3D - The Battle of the Ballz (Europe).png",
+          "candidateTitle": "Ballz 3D - Fighting at Its Ballziest ~ Ballz 3D - The Battle of the Ballz",
+          "normalizedTitle": "ballz 3d fighting at its ballziest ballz 3d the battle of the ballz",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "the",
+            "battle",
+            "of"
+          ],
+          "missingTokens": [
+            "joshua",
+            "and",
+            "jericho"
+          ],
+          "extraTokens": [
+            "ballz",
+            "3d",
+            "fighting",
+            "at",
+            "its",
+            "ballziest"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "King of the Monsters (Europe).png",
+          "candidateTitle": "King of the Monsters",
+          "normalizedTitle": "king of the monsters",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "the",
+            "of"
+          ],
+          "missingTokens": [
+            "joshua",
+            "and",
+            "battle",
+            "jericho"
+          ],
+          "extraTokens": [
+            "king",
+            "monsters"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Rise of the Robots (Europe).png",
+          "candidateTitle": "Rise of the Robots",
+          "normalizedTitle": "rise of the robots",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "the",
+            "of"
+          ],
+          "missingTokens": [
+            "joshua",
+            "and",
+            "battle",
+            "jericho"
+          ],
+          "extraTokens": [
+            "rise",
+            "robots"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Story of Thor, The (Europe) (Mega Drive Mini).png",
+          "candidateTitle": "Story of Thor, The",
+          "normalizedTitle": "the story of thor",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Mega Drive Mini"
+          ],
+          "validImage": true,
+          "width": 484,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "the",
+            "of"
+          ],
+          "missingTokens": [
+            "joshua",
+            "and",
+            "battle",
+            "jericho"
+          ],
+          "extraTokens": [
+            "story",
+            "thor"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Story of Thor, The (Europe).png",
+          "candidateTitle": "Story of Thor, The",
+          "normalizedTitle": "the story of thor",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 701,
+          "score": 0.24,
+          "matchingTokens": [
+            "the",
+            "of"
+          ],
+          "missingTokens": [
+            "joshua",
+            "and",
+            "battle",
+            "jericho"
+          ],
+          "extraTokens": [
+            "story",
+            "thor"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "manchester-united-championship-soccer",
+      "catalogueTitle": "Manchester United Championship Soccer",
+      "slug": "manchester-united-championship-soccer",
+      "year": 1995,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": [
+        {
+          "sourceFilename": "World Championship Soccer II (Europe).png",
+          "candidateTitle": "World Championship Soccer II",
+          "normalizedTitle": "world championship soccer 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "championship",
+            "soccer"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united"
+          ],
+          "extraTokens": [
+            "world",
+            "2"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Wimbledon Championship Tennis (Europe).png",
+          "candidateTitle": "Wimbledon Championship Tennis",
+          "normalizedTitle": "wimbledon championship tennis",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "championship"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "soccer"
+          ],
+          "extraTokens": [
+            "wimbledon",
+            "tennis"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "ATP Tour Championship Tennis (Europe).png",
+          "candidateTitle": "ATP Tour Championship Tennis",
+          "normalizedTitle": "atp tour championship tennis",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "championship"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "soccer"
+          ],
+          "extraTokens": [
+            "atp",
+            "tour",
+            "tennis"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "F1 - World Championship Edition (Europe) (Beta 1).png",
+          "candidateTitle": "F1 - World Championship Edition",
+          "normalizedTitle": "f1 world championship edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "championship"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "soccer"
+          ],
+          "extraTokens": [
+            "f1",
+            "world",
+            "edition"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "F1 - World Championship Edition (Europe) (Beta 2).png",
+          "candidateTitle": "F1 - World Championship Edition",
+          "normalizedTitle": "f1 world championship edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "championship"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "soccer"
+          ],
+          "extraTokens": [
+            "f1",
+            "world",
+            "edition"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "F1 - World Championship Edition (Europe).png",
+          "candidateTitle": "F1 - World Championship Edition",
+          "normalizedTitle": "f1 world championship edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "championship"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "soccer"
+          ],
+          "extraTokens": [
+            "f1",
+            "world",
+            "edition"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Best of the Best - Championship Karate (Europe).png",
+          "candidateTitle": "Best of the Best - Championship Karate",
+          "normalizedTitle": "best of the best championship karate",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "championship"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "soccer"
+          ],
+          "extraTokens": [
+            "best",
+            "of",
+            "the",
+            "karate"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "F1 - World Championship Edition (Europe) (copy).png",
+          "candidateTitle": "F1 - World Championship Edition (copy)",
+          "normalizedTitle": "f1 world championship edition copy",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 256,
+          "height": 355,
+          "score": 0.15,
+          "matchingTokens": [
+            "championship"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "soccer"
+          ],
+          "extraTokens": [
+            "f1",
+            "world",
+            "edition",
+            "copy"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Nigel Mansell's World Championship Racing (Europe).png",
+          "candidateTitle": "Nigel Mansell's World Championship Racing",
+          "normalizedTitle": "nigel mansell s world championship racing",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "championship"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "soccer"
+          ],
+          "extraTokens": [
+            "nigel",
+            "mansell",
+            "s",
+            "world",
+            "racing"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "World Championship Soccer II (USA) (Beta).png",
+          "candidateTitle": "World Championship Soccer II",
+          "normalizedTitle": "world championship soccer 2",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.26,
+          "matchingTokens": [
+            "championship",
+            "soccer"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united"
+          ],
+          "extraTokens": [
+            "world",
+            "2"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "manchester-united-europe",
+      "catalogueTitle": "Manchester United Europe",
+      "slug": "manchester-united-europe",
+      "year": 1991,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": []
+    },
+    {
+      "internalId": "manchester-united-premier-league-champions",
+      "catalogueTitle": "Manchester United Premier League Champions",
+      "slug": "manchester-united-premier-league-champions",
+      "year": 1994,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": [
+        {
+          "sourceFilename": "Eternal Champions (Europe).png",
+          "candidateTitle": "Eternal Champions",
+          "normalizedTitle": "eternal champions",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "champions"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "premier",
+            "league"
+          ],
+          "extraTokens": [
+            "eternal"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Premier Manager (Europe).png",
+          "candidateTitle": "Premier Manager",
+          "normalizedTitle": "premier manager",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "premier"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "league",
+            "champions"
+          ],
+          "extraTokens": [
+            "manager"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Super League (Europe).png",
+          "candidateTitle": "Super League",
+          "normalizedTitle": "super league",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "league"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "premier",
+            "champions"
+          ],
+          "extraTokens": [
+            "super"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Australian Rugby League (Europe).png",
+          "candidateTitle": "Australian Rugby League",
+          "normalizedTitle": "australian rugby league",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "league"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "premier",
+            "champions"
+          ],
+          "extraTokens": [
+            "australian",
+            "rugby"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mutant League Football (Europe).png",
+          "candidateTitle": "Mutant League Football",
+          "normalizedTitle": "mutant league football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 477,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "league"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "premier",
+            "champions"
+          ],
+          "extraTokens": [
+            "mutant",
+            "football"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mutant League Hockey (Europe).png",
+          "candidateTitle": "Mutant League Hockey",
+          "normalizedTitle": "mutant league hockey",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 471,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "league"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "premier",
+            "champions"
+          ],
+          "extraTokens": [
+            "mutant",
+            "hockey"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Premier Manager 97 (Europe).png",
+          "candidateTitle": "Premier Manager 97",
+          "normalizedTitle": "premier manager 97",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "premier"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "league",
+            "champions"
+          ],
+          "extraTokens": [
+            "manager",
+            "97"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Justice League Task Force (Europe).png",
+          "candidateTitle": "Justice League Task Force",
+          "normalizedTitle": "justice league task force",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "league"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "premier",
+            "champions"
+          ],
+          "extraTokens": [
+            "justice",
+            "task",
+            "force"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Champions World Class Soccer (World) (En,Fr,De,Es).png",
+          "candidateTitle": "Champions World Class Soccer",
+          "normalizedTitle": "champions world class soccer",
+          "region": [
+            "World"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "champions"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "premier",
+            "league"
+          ],
+          "extraTokens": [
+            "world",
+            "class",
+            "soccer"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Justice League Task Force (World).png",
+          "candidateTitle": "Justice League Task Force",
+          "normalizedTitle": "justice league task force",
+          "region": [
+            "World"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "league"
+          ],
+          "missingTokens": [
+            "manchester",
+            "united",
+            "premier",
+            "champions"
+          ],
+          "extraTokens": [
+            "justice",
+            "task",
+            "force"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "mike-ditka-power-football",
+      "catalogueTitle": "Mike Ditka Power Football",
+      "slug": "mike-ditka-power-football",
+      "year": 1991,
+      "alternativeTitles": [],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/mike-ditka-power-football.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "Mike Ditka Power Football (USA, Europe) (Unl).png",
+      "finalRegion": "USA, Europe",
+      "finalConfidence": 1,
+      "method": "override",
+      "candidates": [
+        {
+          "sourceFilename": "Mike Ditka Power Football (USA, Europe) (Unl).png",
+          "candidateTitle": "Mike Ditka Power Football",
+          "normalizedTitle": "mike ditka power football",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 512,
+          "height": 730,
+          "score": 0.96,
+          "matchingTokens": [
+            "mike",
+            "ditka",
+            "power",
+            "football"
+          ],
+          "missingTokens": [],
+          "extraTokens": [],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": true,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Power Drive (Europe) (En,Fr,De,Es,Pt).png",
+          "candidateTitle": "Power Drive",
+          "normalizedTitle": "power drive",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "power"
+          ],
+          "missingTokens": [
+            "mike",
+            "ditka",
+            "football"
+          ],
+          "extraTokens": [
+            "drive"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Total Football (Europe).png",
+          "candidateTitle": "Total Football",
+          "normalizedTitle": "total football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "mike",
+            "ditka",
+            "power"
+          ],
+          "extraTokens": [
+            "total"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Joe Montana Football (Europe).png",
+          "candidateTitle": "Joe Montana Football",
+          "normalizedTitle": "joe montana football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "mike",
+            "ditka",
+            "power"
+          ],
+          "extraTokens": [
+            "joe",
+            "montana"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mutant League Football (Europe).png",
+          "candidateTitle": "Mutant League Football",
+          "normalizedTitle": "mutant league football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 477,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "mike",
+            "ditka",
+            "power"
+          ],
+          "extraTokens": [
+            "mutant",
+            "league"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Bill Walsh College Football (Europe).png",
+          "candidateTitle": "Bill Walsh College Football",
+          "normalizedTitle": "bill walsh college football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "mike",
+            "ditka",
+            "power"
+          ],
+          "extraTokens": [
+            "bill",
+            "walsh",
+            "college"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "John Madden American Football (Europe).png",
+          "candidateTitle": "John Madden American Football",
+          "normalizedTitle": "john madden american football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "mike",
+            "ditka",
+            "power"
+          ],
+          "extraTokens": [
+            "john",
+            "madden",
+            "american"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "John Madden Football '92 (Europe).png",
+          "candidateTitle": "John Madden Football '92",
+          "normalizedTitle": "john madden football 92",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 480,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "mike",
+            "ditka",
+            "power"
+          ],
+          "extraTokens": [
+            "john",
+            "madden",
+            "92"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "John Madden Football '93 (Europe).png",
+          "candidateTitle": "John Madden Football '93",
+          "normalizedTitle": "john madden football 93",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "mike",
+            "ditka",
+            "power"
+          ],
+          "extraTokens": [
+            "john",
+            "madden",
+            "93"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Marko's Magic Football (Europe) (En,Fr,De,Es) (Beta).png",
+          "candidateTitle": "Marko's Magic Football",
+          "normalizedTitle": "marko s magic football",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "football"
+          ],
+          "missingTokens": [
+            "mike",
+            "ditka",
+            "power"
+          ],
+          "extraTokens": [
+            "marko",
+            "s",
+            "magic"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "nfl-quarterback-club-97",
+      "catalogueTitle": "NFL Quarterback Club 97",
+      "slug": "nfl-quarterback-club-97",
+      "year": 1996,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": [
+        {
+          "sourceFilename": "Madden NFL 97 (Europe).png",
+          "candidateTitle": "Madden NFL 97",
+          "normalizedTitle": "madden nfl 97",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.348,
+          "matchingTokens": [
+            "nfl",
+            "97"
+          ],
+          "missingTokens": [
+            "quarterback",
+            "club"
+          ],
+          "extraTokens": [
+            "madden"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NHL 97 (Europe).png",
+          "candidateTitle": "NHL 97",
+          "normalizedTitle": "nhl 97",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "97"
+          ],
+          "missingTokens": [
+            "nfl",
+            "quarterback",
+            "club"
+          ],
+          "extraTokens": [
+            "nhl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Live 97 (Europe).png",
+          "candidateTitle": "NBA Live 97",
+          "normalizedTitle": "nba live 97",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "97"
+          ],
+          "missingTokens": [
+            "nfl",
+            "quarterback",
+            "club"
+          ],
+          "extraTokens": [
+            "nba",
+            "live"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Premier Manager 97 (Europe).png",
+          "candidateTitle": "Premier Manager 97",
+          "normalizedTitle": "premier manager 97",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.18,
+          "matchingTokens": [
+            "97"
+          ],
+          "missingTokens": [
+            "nfl",
+            "quarterback",
+            "club"
+          ],
+          "extraTokens": [
+            "premier",
+            "manager"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Madden NFL 97 (USA, Europe).png",
+          "candidateTitle": "Madden NFL 97",
+          "normalizedTitle": "madden nfl 97",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.308,
+          "matchingTokens": [
+            "nfl",
+            "97"
+          ],
+          "missingTokens": [
+            "quarterback",
+            "club"
+          ],
+          "extraTokens": [
+            "madden"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NHL 97 (USA, Europe).png",
+          "candidateTitle": "NHL 97",
+          "normalizedTitle": "nhl 97",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.164,
+          "matchingTokens": [
+            "97"
+          ],
+          "missingTokens": [
+            "nfl",
+            "quarterback",
+            "club"
+          ],
+          "extraTokens": [
+            "nhl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "FIFA Soccer 97 (USA, Europe) (En,Fr,De,Es,It,Sv).png",
+          "candidateTitle": "FIFA Soccer 97",
+          "normalizedTitle": "fifa soccer 97",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "97"
+          ],
+          "missingTokens": [
+            "nfl",
+            "quarterback",
+            "club"
+          ],
+          "extraTokens": [
+            "fifa",
+            "soccer"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Live 97 (USA, Europe).png",
+          "candidateTitle": "NBA Live 97",
+          "normalizedTitle": "nba live 97",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "97"
+          ],
+          "missingTokens": [
+            "nfl",
+            "quarterback",
+            "club"
+          ],
+          "extraTokens": [
+            "nba",
+            "live"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "FIFA Soccer 97 (USA).png",
+          "candidateTitle": "FIFA Soccer 97",
+          "normalizedTitle": "fifa soccer 97",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.14,
+          "matchingTokens": [
+            "97"
+          ],
+          "missingTokens": [
+            "nfl",
+            "quarterback",
+            "club"
+          ],
+          "extraTokens": [
+            "fifa",
+            "soccer"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "College Football USA 97 (USA).png",
+          "candidateTitle": "College Football USA 97",
+          "normalizedTitle": "college football usa 97",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.1229,
+          "matchingTokens": [
+            "97"
+          ],
+          "missingTokens": [
+            "nfl",
+            "quarterback",
+            "club"
+          ],
+          "extraTokens": [
+            "college",
+            "football",
+            "usa"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "olympic-hockey-98",
+      "catalogueTitle": "Olympic Hockey 98",
+      "slug": "olympic-hockey-98",
+      "year": 1998,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": [
+        {
+          "sourceFilename": "FIFA 98 - Road to World Cup (Europe) (En,Fr,Es,It,Sv).png",
+          "candidateTitle": "FIFA 98 - Road to World Cup",
+          "normalizedTitle": "fifa 98 road to world cup",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "98"
+          ],
+          "missingTokens": [
+            "olympic",
+            "hockey"
+          ],
+          "extraTokens": [
+            "fifa",
+            "road",
+            "to",
+            "world",
+            "cup"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NFL 98 (USA).png",
+          "candidateTitle": "NFL 98",
+          "normalizedTitle": "nfl 98",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.2,
+          "matchingTokens": [
+            "98"
+          ],
+          "missingTokens": [
+            "olympic",
+            "hockey"
+          ],
+          "extraTokens": [
+            "nfl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NHL 98 (USA).png",
+          "candidateTitle": "NHL 98",
+          "normalizedTitle": "nhl 98",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.2,
+          "matchingTokens": [
+            "98"
+          ],
+          "missingTokens": [
+            "olympic",
+            "hockey"
+          ],
+          "extraTokens": [
+            "nhl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Madden NFL 98 (USA).png",
+          "candidateTitle": "Madden NFL 98",
+          "normalizedTitle": "madden nfl 98",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.164,
+          "matchingTokens": [
+            "98"
+          ],
+          "missingTokens": [
+            "olympic",
+            "hockey"
+          ],
+          "extraTokens": [
+            "madden",
+            "nfl"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Live 98 (USA).png",
+          "candidateTitle": "NBA Live 98",
+          "normalizedTitle": "nba live 98",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.164,
+          "matchingTokens": [
+            "98"
+          ],
+          "missingTokens": [
+            "olympic",
+            "hockey"
+          ],
+          "extraTokens": [
+            "nba",
+            "live"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "World Series Baseball 98 (USA).png",
+          "candidateTitle": "World Series Baseball 98",
+          "normalizedTitle": "world series baseball 98",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "98"
+          ],
+          "missingTokens": [
+            "olympic",
+            "hockey"
+          ],
+          "extraTokens": [
+            "world",
+            "series",
+            "baseball"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "EA Hockey (Europe).png",
+          "candidateTitle": "EA Hockey",
+          "normalizedTitle": "ea hockey",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 477,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "hockey"
+          ],
+          "missingTokens": [
+            "olympic",
+            "98"
+          ],
+          "extraTokens": [
+            "ea"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).png",
+          "candidateTitle": "Olympic Gold",
+          "normalizedTitle": "olympic gold",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "olympic"
+          ],
+          "missingTokens": [
+            "hockey",
+            "98"
+          ],
+          "extraTokens": [
+            "gold"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Mutant League Hockey (Europe).png",
+          "candidateTitle": "Mutant League Hockey",
+          "normalizedTitle": "mutant league hockey",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 471,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "hockey"
+          ],
+          "missingTokens": [
+            "olympic",
+            "98"
+          ],
+          "extraTokens": [
+            "mutant",
+            "league"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Olympic Summer Games (Europe).png",
+          "candidateTitle": "Olympic Summer Games",
+          "normalizedTitle": "olympic summer games",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "olympic"
+          ],
+          "missingTokens": [
+            "hockey",
+            "98"
+          ],
+          "extraTokens": [
+            "summer",
+            "games"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "olympic-soccer",
+      "catalogueTitle": "Olympic Soccer",
+      "slug": "olympic-soccer",
+      "year": 1996,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": [
+        {
+          "sourceFilename": "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).png",
+          "candidateTitle": "Olympic Gold",
+          "normalizedTitle": "olympic gold",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "olympic"
+          ],
+          "missingTokens": [
+            "soccer"
+          ],
+          "extraTokens": [
+            "gold"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Sensible Soccer (Europe) (En,Fr,De,It).png",
+          "candidateTitle": "Sensible Soccer",
+          "normalizedTitle": "sensible soccer",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "soccer"
+          ],
+          "missingTokens": [
+            "olympic"
+          ],
+          "extraTokens": [
+            "sensible"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Ultimate Soccer (Europe) (En,Fr,De,Es,It) (Beta).png",
+          "candidateTitle": "Ultimate Soccer",
+          "normalizedTitle": "ultimate soccer",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "soccer"
+          ],
+          "missingTokens": [
+            "olympic"
+          ],
+          "extraTokens": [
+            "ultimate"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Ultimate Soccer (Europe) (En,Fr,De,Es,It).png",
+          "candidateTitle": "Ultimate Soccer",
+          "normalizedTitle": "ultimate soccer",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "soccer"
+          ],
+          "missingTokens": [
+            "olympic"
+          ],
+          "extraTokens": [
+            "ultimate"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "European Club Soccer (Europe).png",
+          "candidateTitle": "European Club Soccer",
+          "normalizedTitle": "european club soccer",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "soccer"
+          ],
+          "missingTokens": [
+            "olympic"
+          ],
+          "extraTokens": [
+            "european",
+            "club"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Fever Pitch Soccer (Europe) (En,Fr,De,Es,It).png",
+          "candidateTitle": "Fever Pitch Soccer",
+          "normalizedTitle": "fever pitch soccer",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "soccer"
+          ],
+          "missingTokens": [
+            "olympic"
+          ],
+          "extraTokens": [
+            "fever",
+            "pitch"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "International Sensible Soccer (Europe) (En,Fr,De,It).png",
+          "candidateTitle": "International Sensible Soccer",
+          "normalizedTitle": "international sensible soccer",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "soccer"
+          ],
+          "missingTokens": [
+            "olympic"
+          ],
+          "extraTokens": [
+            "international",
+            "sensible"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Olympic Summer Games (Europe).png",
+          "candidateTitle": "Olympic Summer Games",
+          "normalizedTitle": "olympic summer games",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "olympic"
+          ],
+          "missingTokens": [
+            "soccer"
+          ],
+          "extraTokens": [
+            "summer",
+            "games"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Dino Dini's Soccer (Europe) (En,Fr,De).png",
+          "candidateTitle": "Dino Dini's Soccer",
+          "normalizedTitle": "dino dini s soccer",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 484,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "soccer"
+          ],
+          "missingTokens": [
+            "olympic"
+          ],
+          "extraTokens": [
+            "dino",
+            "dini",
+            "s"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Dino Dini's Soccer (Europe).png",
+          "candidateTitle": "Dino Dini's Soccer",
+          "normalizedTitle": "dino dini s soccer",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "soccer"
+          ],
+          "missingTokens": [
+            "olympic"
+          ],
+          "extraTokens": [
+            "dino",
+            "dini",
+            "s"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "star-control",
+      "catalogueTitle": "Star Control",
+      "slug": "star-control",
+      "year": 1991,
+      "alternativeTitles": [],
+      "reason": "résolu depuis le rapport initial",
+      "currentCover": "/covers/megadrive/star-control.webp",
+      "coverOrigin": "libretro",
+      "finalSourceFilename": "Star Control (USA, Europe) (Unl).png",
+      "finalRegion": "USA, Europe",
+      "finalConfidence": 1,
+      "method": "override",
+      "candidates": [
+        {
+          "sourceFilename": "Star Control (USA, Europe) (Unl).png",
+          "candidateTitle": "Star Control",
+          "normalizedTitle": "star control",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.96,
+          "matchingTokens": [
+            "star",
+            "control"
+          ],
+          "missingTokens": [],
+          "extraTokens": [],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": true,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Phantasy Star IV (Europe).png",
+          "candidateTitle": "Phantasy Star IV",
+          "normalizedTitle": "phantasy star 4",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "star"
+          ],
+          "missingTokens": [
+            "control"
+          ],
+          "extraTokens": [
+            "phantasy",
+            "4"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA All-Star Challenge (Europe).png",
+          "candidateTitle": "NBA All-Star Challenge",
+          "normalizedTitle": "nba all star challenge",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "star"
+          ],
+          "missingTokens": [
+            "control"
+          ],
+          "extraTokens": [
+            "nba",
+            "all",
+            "challenge"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Star Trek - Deep Space Nine - Crossroads of Time (Europe).png",
+          "candidateTitle": "Star Trek - Deep Space Nine - Crossroads of Time",
+          "normalizedTitle": "star trek deep space nine crossroads of time",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "star"
+          ],
+          "missingTokens": [
+            "control"
+          ],
+          "extraTokens": [
+            "trek",
+            "deep",
+            "space",
+            "nine",
+            "crossroads",
+            "of",
+            "time"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Star Odyssey (World) (Unl).png",
+          "candidateTitle": "Star Odyssey",
+          "normalizedTitle": "star odyssey",
+          "region": [
+            "World"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Unl"
+          ],
+          "validImage": true,
+          "width": 256,
+          "height": 355,
+          "score": 0.3,
+          "matchingTokens": [
+            "star"
+          ],
+          "missingTokens": [
+            "control"
+          ],
+          "extraTokens": [
+            "odyssey"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Phantasy Star II (USA, Europe).png",
+          "candidateTitle": "Phantasy Star II",
+          "normalizedTitle": "phantasy star 2",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 713,
+          "score": 0.2,
+          "matchingTokens": [
+            "star"
+          ],
+          "missingTokens": [
+            "control"
+          ],
+          "extraTokens": [
+            "phantasy",
+            "2"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA All-Star Challenge (USA, Europe).png",
+          "candidateTitle": "NBA All-Star Challenge",
+          "normalizedTitle": "nba all star challenge",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.164,
+          "matchingTokens": [
+            "star"
+          ],
+          "missingTokens": [
+            "control"
+          ],
+          "extraTokens": [
+            "nba",
+            "all",
+            "challenge"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Phantasy Star III - Generations of Doom (USA, Europe, Korea) (En).png",
+          "candidateTitle": "Phantasy Star III - Generations of Doom",
+          "normalizedTitle": "phantasy star 3 generations of doom",
+          "region": [
+            "USA",
+            "Europe",
+            "Korea"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.1229,
+          "matchingTokens": [
+            "star"
+          ],
+          "missingTokens": [
+            "control"
+          ],
+          "extraTokens": [
+            "phantasy",
+            "3",
+            "generations",
+            "of",
+            "doom"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Phantasy Star III - Generations of Doom (USA, Europe, Korea).png",
+          "candidateTitle": "Phantasy Star III - Generations of Doom",
+          "normalizedTitle": "phantasy star 3 generations of doom",
+          "region": [
+            "USA",
+            "Europe",
+            "Korea"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 722,
+          "score": 0.1229,
+          "matchingTokens": [
+            "star"
+          ],
+          "missingTokens": [
+            "control"
+          ],
+          "extraTokens": [
+            "phantasy",
+            "3",
+            "generations",
+            "of",
+            "doom"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Phantasy Star II (USA, Europe) (Rev A).png",
+          "candidateTitle": "Phantasy Star II",
+          "normalizedTitle": "phantasy star 2",
+          "region": [
+            "USA",
+            "Europe"
+          ],
+          "revision": "Rev A",
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 713,
+          "score": 0.15,
+          "matchingTokens": [
+            "star"
+          ],
+          "missingTokens": [
+            "control"
+          ],
+          "extraTokens": [
+            "phantasy",
+            "2"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "trivial-pursuit-genus-edition",
+      "catalogueTitle": "Trivial Pursuit: Genus Edition",
+      "slug": "trivial-pursuit-genus-edition",
+      "year": 1992,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": [
+        {
+          "sourceFilename": "F1 - World Championship Edition (Europe) (Beta 1).png",
+          "candidateTitle": "F1 - World Championship Edition",
+          "normalizedTitle": "f1 world championship edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "trivial",
+            "pursuit",
+            "genus"
+          ],
+          "extraTokens": [
+            "f1",
+            "world",
+            "championship"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "F1 - World Championship Edition (Europe) (Beta 2).png",
+          "candidateTitle": "F1 - World Championship Edition",
+          "normalizedTitle": "f1 world championship edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "trivial",
+            "pursuit",
+            "genus"
+          ],
+          "extraTokens": [
+            "f1",
+            "world",
+            "championship"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "F1 - World Championship Edition (Europe).png",
+          "candidateTitle": "F1 - World Championship Edition",
+          "normalizedTitle": "f1 world championship edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "trivial",
+            "pursuit",
+            "genus"
+          ],
+          "extraTokens": [
+            "f1",
+            "world",
+            "championship"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Jurassic Park - Rampage Edition (Europe).png",
+          "candidateTitle": "Jurassic Park - Rampage Edition",
+          "normalizedTitle": "jurassic park rampage edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "trivial",
+            "pursuit",
+            "genus"
+          ],
+          "extraTokens": [
+            "jurassic",
+            "park",
+            "rampage"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Jam - Tournament Edition (Europe).png",
+          "candidateTitle": "NBA Jam - Tournament Edition",
+          "normalizedTitle": "nba jam tournament edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "trivial",
+            "pursuit",
+            "genus"
+          ],
+          "extraTokens": [
+            "nba",
+            "jam",
+            "tournament"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Sensible Soccer - International Edition (Europe) (En,Fr,De,It).png",
+          "candidateTitle": "Sensible Soccer - International Edition",
+          "normalizedTitle": "sensible soccer international edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "trivial",
+            "pursuit",
+            "genus"
+          ],
+          "extraTokens": [
+            "sensible",
+            "soccer",
+            "international"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "F1 - World Championship Edition (Europe) (copy).png",
+          "candidateTitle": "F1 - World Championship Edition (copy)",
+          "normalizedTitle": "f1 world championship edition copy",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 256,
+          "height": 355,
+          "score": 0.15,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "trivial",
+            "pursuit",
+            "genus"
+          ],
+          "extraTokens": [
+            "f1",
+            "world",
+            "championship",
+            "copy"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Street Fighter II' - Special Champion Edition (Europe).png",
+          "candidateTitle": "Street Fighter II' - Special Champion Edition",
+          "normalizedTitle": "street fighter 2 special champion edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.14,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "trivial",
+            "pursuit",
+            "genus"
+          ],
+          "extraTokens": [
+            "street",
+            "fighter",
+            "2",
+            "special",
+            "champion"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Street Fighter II' - Special Champion Edition (Europe) (Virtual Console).png",
+          "candidateTitle": "Street Fighter II' - Special Champion Edition (Virtual Console)",
+          "normalizedTitle": "street fighter 2 special champion edition virtual console",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 484,
+          "height": 680,
+          "score": 0.1255,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "trivial",
+            "pursuit",
+            "genus"
+          ],
+          "extraTokens": [
+            "street",
+            "fighter",
+            "2",
+            "special",
+            "champion",
+            "virtual",
+            "console"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "NBA Jam - Tournament Edition (World).png",
+          "candidateTitle": "NBA Jam - Tournament Edition",
+          "normalizedTitle": "nba jam tournament edition",
+          "region": [
+            "World"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "trivial",
+            "pursuit",
+            "genus"
+          ],
+          "extraTokens": [
+            "nba",
+            "jam",
+            "tournament"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "wheel-of-fortune-deluxe-edition",
+      "catalogueTitle": "Wheel of Fortune: Deluxe Edition",
+      "slug": "wheel-of-fortune-deluxe-edition",
+      "year": 1994,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": [
+        {
+          "sourceFilename": "International Superstar Soccer Deluxe (Europe, Brazil) (En).png",
+          "candidateTitle": "International Superstar Soccer Deluxe",
+          "normalizedTitle": "international superstar soccer deluxe",
+          "region": [
+            "Europe",
+            "Brazil"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "deluxe"
+          ],
+          "missingTokens": [
+            "wheel",
+            "of",
+            "fortune",
+            "edition"
+          ],
+          "extraTokens": [
+            "international",
+            "superstar",
+            "soccer"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "International Superstar Soccer Deluxe (Europe).png",
+          "candidateTitle": "International Superstar Soccer Deluxe",
+          "normalizedTitle": "international superstar soccer deluxe",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "deluxe"
+          ],
+          "missingTokens": [
+            "wheel",
+            "of",
+            "fortune",
+            "edition"
+          ],
+          "extraTokens": [
+            "international",
+            "superstar",
+            "soccer"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Jeopardy! - Deluxe Edition (USA).png",
+          "candidateTitle": "Jeopardy! - Deluxe Edition",
+          "normalizedTitle": "jeopardy deluxe edition",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.26,
+          "matchingTokens": [
+            "deluxe",
+            "edition"
+          ],
+          "missingTokens": [
+            "wheel",
+            "of",
+            "fortune"
+          ],
+          "extraTokens": [
+            "jeopardy"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Art of Fighting (Europe).png",
+          "candidateTitle": "Art of Fighting",
+          "normalizedTitle": "art of fighting",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "of"
+          ],
+          "missingTokens": [
+            "wheel",
+            "fortune",
+            "deluxe",
+            "edition"
+          ],
+          "extraTokens": [
+            "art",
+            "fighting"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Blades of Vengeance (Europe).png",
+          "candidateTitle": "Blades of Vengeance",
+          "normalizedTitle": "blades of vengeance",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 474,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "of"
+          ],
+          "missingTokens": [
+            "wheel",
+            "fortune",
+            "deluxe",
+            "edition"
+          ],
+          "extraTokens": [
+            "blades",
+            "vengeance"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Empire of Steel (Europe).png",
+          "candidateTitle": "Empire of Steel",
+          "normalizedTitle": "empire of steel",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "of"
+          ],
+          "missingTokens": [
+            "wheel",
+            "fortune",
+            "deluxe",
+            "edition"
+          ],
+          "extraTokens": [
+            "empire",
+            "steel"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Prince of Persia (Europe) (Beta).png",
+          "candidateTitle": "Prince of Persia",
+          "normalizedTitle": "prince of persia",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "of"
+          ],
+          "missingTokens": [
+            "wheel",
+            "fortune",
+            "deluxe",
+            "edition"
+          ],
+          "extraTokens": [
+            "prince",
+            "persia"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Prince of Persia (Europe).png",
+          "candidateTitle": "Prince of Persia",
+          "normalizedTitle": "prince of persia",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.1629,
+          "matchingTokens": [
+            "of"
+          ],
+          "missingTokens": [
+            "wheel",
+            "fortune",
+            "deluxe",
+            "edition"
+          ],
+          "extraTokens": [
+            "prince",
+            "persia"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Brutal - Paws of Fury (Europe) (En,Fr,De).png",
+          "candidateTitle": "Brutal - Paws of Fury",
+          "normalizedTitle": "brutal paws of fury",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "of"
+          ],
+          "missingTokens": [
+            "wheel",
+            "fortune",
+            "deluxe",
+            "edition"
+          ],
+          "extraTokens": [
+            "brutal",
+            "paws",
+            "fury"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "F1 - World Championship Edition (Europe) (Beta 1).png",
+          "candidateTitle": "F1 - World Championship Edition",
+          "normalizedTitle": "f1 world championship edition",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.15,
+          "matchingTokens": [
+            "edition"
+          ],
+          "missingTokens": [
+            "wheel",
+            "of",
+            "fortune",
+            "deluxe"
+          ],
+          "extraTokens": [
+            "f1",
+            "world",
+            "championship"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    },
+    {
+      "internalId": "wimbledon-championship-tennis-ii",
+      "catalogueTitle": "Wimbledon Championship Tennis II",
+      "slug": "wimbledon-championship-tennis-ii",
+      "year": 1993,
+      "alternativeTitles": [],
+      "reason": "aucun candidat automatique sûr",
+      "currentCover": null,
+      "coverOrigin": null,
+      "finalSourceFilename": null,
+      "finalRegion": null,
+      "finalConfidence": null,
+      "method": null,
+      "candidates": [
+        {
+          "sourceFilename": "World Championship Soccer II (Europe).png",
+          "candidateTitle": "World Championship Soccer II",
+          "normalizedTitle": "world championship soccer 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "championship",
+            "2"
+          ],
+          "missingTokens": [
+            "wimbledon",
+            "tennis"
+          ],
+          "extraTokens": [
+            "world",
+            "soccer"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "World Championship Soccer II (USA) (Beta).png",
+          "candidateTitle": "World Championship Soccer II",
+          "normalizedTitle": "world championship soccer 2",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": true,
+          "excludedReasons": [
+            "Beta"
+          ],
+          "validImage": true,
+          "width": 479,
+          "height": 680,
+          "score": 0.26,
+          "matchingTokens": [
+            "championship",
+            "2"
+          ],
+          "missingTokens": [
+            "wimbledon",
+            "tennis"
+          ],
+          "extraTokens": [
+            "world",
+            "soccer"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "World Championship Soccer II (USA).png",
+          "candidateTitle": "World Championship Soccer II",
+          "normalizedTitle": "world championship soccer 2",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.26,
+          "matchingTokens": [
+            "championship",
+            "2"
+          ],
+          "missingTokens": [
+            "wimbledon",
+            "tennis"
+          ],
+          "extraTokens": [
+            "world",
+            "soccer"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Blockbuster World Video Game Championship II (USA).png",
+          "candidateTitle": "Blockbuster World Video Game Championship II",
+          "normalizedTitle": "blockbuster world video game championship 2",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 256,
+          "height": 375,
+          "score": 0.2,
+          "matchingTokens": [
+            "championship",
+            "2"
+          ],
+          "missingTokens": [
+            "wimbledon",
+            "tennis"
+          ],
+          "extraTokens": [
+            "blockbuster",
+            "world",
+            "video",
+            "game"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "College Football's National Championship II (USA).png",
+          "candidateTitle": "College Football's National Championship II",
+          "normalizedTitle": "college football s national championship 2",
+          "region": [
+            "USA"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 512,
+          "height": 731,
+          "score": 0.2,
+          "matchingTokens": [
+            "championship",
+            "2"
+          ],
+          "missingTokens": [
+            "wimbledon",
+            "tennis"
+          ],
+          "extraTokens": [
+            "college",
+            "football",
+            "s",
+            "national"
+          ],
+          "editionConflict": false,
+          "sequelConflict": false,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Wimbledon Championship Tennis (Europe).png",
+          "candidateTitle": "Wimbledon Championship Tennis",
+          "normalizedTitle": "wimbledon championship tennis",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.6,
+          "matchingTokens": [
+            "wimbledon",
+            "championship",
+            "tennis"
+          ],
+          "missingTokens": [
+            "2"
+          ],
+          "extraTokens": [],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "ATP Tour Championship Tennis (Europe).png",
+          "candidateTitle": "ATP Tour Championship Tennis",
+          "normalizedTitle": "atp tour championship tennis",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.3,
+          "matchingTokens": [
+            "championship",
+            "tennis"
+          ],
+          "missingTokens": [
+            "wimbledon",
+            "2"
+          ],
+          "extraTokens": [
+            "atp",
+            "tour"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Wimbledon (Europe).png",
+          "candidateTitle": "Wimbledon",
+          "normalizedTitle": "wimbledon",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.24,
+          "matchingTokens": [
+            "wimbledon"
+          ],
+          "missingTokens": [
+            "championship",
+            "tennis",
+            "2"
+          ],
+          "extraTokens": [],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Bubsy II (Europe).png",
+          "candidateTitle": "Bubsy II",
+          "normalizedTitle": "bubsy 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "wimbledon",
+            "championship",
+            "tennis"
+          ],
+          "extraTokens": [
+            "bubsy"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        },
+        {
+          "sourceFilename": "Paperboy 2 (Europe).png",
+          "candidateTitle": "Paperboy 2",
+          "normalizedTitle": "paperboy 2",
+          "region": [
+            "Europe"
+          ],
+          "revision": null,
+          "excludedVariant": false,
+          "excludedReasons": [],
+          "validImage": true,
+          "width": 483,
+          "height": 680,
+          "score": 0.204,
+          "matchingTokens": [
+            "2"
+          ],
+          "missingTokens": [
+            "wimbledon",
+            "championship",
+            "tennis"
+          ],
+          "extraTokens": [
+            "paperboy"
+          ],
+          "editionConflict": true,
+          "sequelConflict": true,
+          "exactTitle": false,
+          "confirmedAlias": false
+        }
+      ]
+    }
+  ]
+}

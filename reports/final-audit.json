@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-07-13T12:36:43.214Z",
+  "totalCatalogueEntries": 371,
+  "uniqueGames": 371,
+  "gamesWithValidCover": 371,
+  "gamesWithoutCover": 0,
+  "gamesWithInvalidCover": 0,
+  "gamesWithBlackOrNearBlackCover": 0,
+  "wrongCoversCorrected": 1,
+  "gamesWithoutGameplayImage": 0,
+  "gamesWithOneGameplayImage": 371,
+  "gamesWithTwoGameplayImages": 0,
+  "gamesWithThreeGameplayImages": 0,
+  "gamesWithoutDescription": 371,
+  "gamesWithoutReleaseYear": 111,
+  "gamesWithoutPlayerCount": 0,
+  "gamesWithoutTags": 0,
+  "gamesWithoutExternalRating": 371,
+  "accountCreationWorksLocally": true,
+  "databaseConnectionWorksLocally": true,
+  "databaseGames": 371,
+  "databaseMedia": 371
+}

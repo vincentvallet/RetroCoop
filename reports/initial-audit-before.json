@@ -1,0 +1,15 @@
+{
+  "totalGames": 382,
+  "loggedOutNavigationIsCorrect": false,
+  "registrationPageIsReadable": false,
+  "registrationCreatesDatabaseUser": true,
+  "registrationAutomaticallyLogsIn": false,
+  "loginPersistsAfterReload": false,
+  "loggedInUserVisibleInHeader": false,
+  "authenticatedUserCanCreateSession": false,
+  "generatedDescriptionsDetected": 382,
+  "historicallySourcedDescriptions": 0,
+  "gamesWithoutValidCover": 11,
+  "gamesWithoutGameplayImage": 15,
+  "catalogueEntriesWithPlatformConflict": 4
+}

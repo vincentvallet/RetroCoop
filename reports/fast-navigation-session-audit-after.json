@@ -1,0 +1,21 @@
+{
+  "totalGames": 371,
+  "descriptionsRenderedInCatalogue": 0,
+  "descriptionsRenderedInGameDetails": 0,
+  "gameDetailsRequireNetworkRequest": false,
+  "adjacentImagesArePreloaded": true,
+  "sessionPostReturnsSuccess": true,
+  "sessionCreatedInDatabase": true,
+  "sessionReturnedByListEndpoint": true,
+  "sessionVisibleWithoutReload": true,
+  "sessionVisibleAfterReload": true,
+  "authenticationPersists": true,
+  "databaseEngine": "PostgreSQL",
+  "productionDatabaseReady": true,
+  "neonRemoteTestExecuted": false,
+  "neonRemoteTestBlocker": "Aucune URL ou identité Neon n'est configurée dans l'environnement local.",
+  "navigationAverageMs": 38.49,
+  "navigationMaxMs": 58.29,
+  "documentRequestsDuring20Changes": 0,
+  "gameApiRequestsDuring20Changes": 0
+}

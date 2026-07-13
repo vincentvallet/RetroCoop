@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: retrocoop
+    runtime: node
+    region: frankfurt
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start:render
+    healthCheckPath: /api/health
+    envVars:
+      - {key: DATABASE_URL, sync: false}
+      - {key: DIRECT_URL, sync: false}
+      - {key: AUTH_SECRET, generateValue: true}
+      - {key: APP_URL, sync: false}
+      - {key: NODE_ENV, value: production}
+      - {key: NODE_VERSION, value: 22.18.0}

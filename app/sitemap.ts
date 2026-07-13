@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next'; import games from '@/data/normalized/megadrive-games.json'; export default function sitemap():MetadataRoute.Sitemap{const b=process.env.APP_URL||'http://localhost:3000';return['','/catalogue','/sessions','/classement','/sources-et-droits',...games.map(g=>`/jeux/megadrive/${g.slug}`)].map(url=>({url:b+url,lastModified:new Date()}))}

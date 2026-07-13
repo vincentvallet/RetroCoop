@@ -1,0 +1,1 @@
+export default function Privacy(){return <main className="section wrap"><h1>Confidentialité</h1><p>RetroCoop minimise les données collectées. L’email et les lieux privés ne sont jamais publics. Vous pouvez demander accès, export, rectification ou suppression de vos données.</p></main>}

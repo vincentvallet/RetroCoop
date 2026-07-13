@@ -1,0 +1,1 @@
+export default function Terms(){return <main className="section wrap"><h1>Conditions d’utilisation</h1><p>Respect, légalité et sécurité sont obligatoires. ROM, BIOS, liens pirates, harcèlement et contenu illicite sont interdits. Ces conditions devront être validées juridiquement avant ouverture publique.</p></main>}

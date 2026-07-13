@@ -1,0 +1,197 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+enum Role {
+  USER
+  MODERATOR
+  ADMIN
+}
+enum VerificationStatus {
+  VERIFIED
+  PROBABLE
+  TO_REVIEW
+}
+enum SessionStatus {
+  OPEN
+  FULL
+  CANCELLED
+  COMPLETED
+}
+enum ParticipantStatus {
+  JOINED
+  WAITLIST
+  LEFT
+  REMOVED
+}
+model Platform {
+  id String @id @default(cuid())
+  name String
+  slug String @unique
+  manufacturer String?
+  active Boolean @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  games Game[]
+}
+model Game {
+  id String @id @default(cuid())
+  platformId String
+  platform Platform @relation(fields: [platformId], references: [id])
+  title String
+  sortTitle String
+  slug String
+  aliases Json @default("[]")
+  region String?
+  releaseYear Int?
+  description String?
+  descriptionSourceType String?
+  descriptionSourceUrl String?
+  descriptionSourceLanguage String?
+  descriptionAdaptedToFrench Boolean @default(false)
+  descriptionVerifiedPlatform String?
+  metadataSource String?
+  metadataExternalId String?
+  metadataUpdatedAt DateTime?
+  coverUrl String?
+  coverSource String?
+  coverAttribution String?
+  gameplayImages Json @default("[]")
+  externalRating Float?
+  externalRatingCount Int?
+  externalRatingProvider String?
+  externalRatingType String?
+  externalRatingUpdatedAt DateTime?
+  genres Json @default("[]")
+  tags Json @default("[]")
+  playerMin Int?
+  playerMax Int?
+  simultaneous Boolean?
+  alternating Boolean?
+  coop Boolean?
+  versus Boolean?
+  dropIn Boolean?
+  splitScreen Boolean?
+  multitap Boolean?
+  verificationStatus VerificationStatus @default(TO_REVIEW)
+  published Boolean @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  sessions GameSession[]
+  media GameMedia[]
+  @@unique([platformId, slug])
+  @@index([platformId, sortTitle])
+  @@index([platformId, releaseYear])
+}
+model User {
+  id String @id @default(cuid())
+  email String @unique
+  username String @unique
+  usernameNormalized String @unique
+  passwordHash String
+  timezone String @default("Europe/Paris")
+  role Role @default(USER)
+  status String @default("ACTIVE")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  hosted GameSession[]
+  participants SessionParticipant[]
+}
+model GameMedia {
+  id String @id @default(cuid())
+  gameId String
+  type String
+  path String
+  source String
+  sourceUrl String?
+  sourceExternalId String?
+  sourceFilename String?
+  width Int
+  height Int
+  fileSize Int
+  sortOrder Int @default(1)
+  platformVerified Boolean @default(false)
+  verifiedPlatform String?
+  verifiedTitle String?
+  region String?
+  commercialCover Boolean @default(false)
+  prototypeVisual Boolean @default(false)
+  importedAt DateTime @default(now())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  game Game @relation(fields:[gameId],references:[id],onDelete:Cascade)
+  @@unique([gameId,type,sortOrder])
+}
+model RegistrationChallenge {
+  id String @id @default(cuid())
+  tokenHash String @unique
+  answerHash String
+  expiresAt DateTime
+  usedAt DateTime?
+  createdAt DateTime @default(now())
+  @@index([expiresAt])
+}
+model RegistrationAttempt {
+  id String @id @default(cuid())
+  ipHash String
+  emailNormalized String?
+  usernameNormalized String?
+  success Boolean @default(false)
+  createdAt DateTime @default(now())
+  @@index([ipHash,createdAt])
+  @@index([emailNormalized,createdAt])
+  @@index([usernameNormalized,createdAt])
+}
+model GameSession {
+  id String @id @default(cuid())
+  gameId String
+  hostId String
+  startsAtUtc DateTime
+  durationMinutes Int
+  timezoneAtCreation String
+  locationType String
+  privateJoinUrl String?
+  minPlayers Int
+  maxPlayers Int
+  status SessionStatus @default(OPEN)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  game Game @relation(fields: [gameId], references: [id])
+  host User @relation(fields: [hostId], references: [id])
+  participants SessionParticipant[]
+  @@index([gameId, startsAtUtc, status])
+  @@index([hostId, startsAtUtc])
+}
+model SessionParticipant {
+  sessionId String
+  userId String
+  status ParticipantStatus
+  joinedAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  session GameSession @relation(fields: [sessionId], references: [id])
+  user User @relation(fields: [userId], references: [id])
+  @@id([sessionId, userId])
+  @@index([userId, status])
+}
+model ImportIssue {
+  id String @id @default(cuid())
+  type String
+  sourceName String
+  sourceLine Int?
+  payload Json
+  status String @default("OPEN")
+  createdAt DateTime @default(now())
+}
+model AuditLog {
+  id String @id @default(cuid())
+  actorId String?
+  action String
+  entityType String
+  entityId String?
+  metadata Json
+  createdAt DateTime @default(now())
+}

@@ -1,0 +1,6 @@
+{
+  "dinosaurs-for-hire": {"images": [{"provider": "libretro", "sourceFilename": "Tom Mason's Dinosaurs for Hire (USA).png"}], "reason": "Titre régional complet vérifié et capture de gameplay contrôlée visuellement."},
+  "double-dragon": {"images": [{"provider": "libretro", "sourceFilename": "Double Dragon (USA, Europe) (Unl).png"}], "reason": "Version Mega Drive non licenciée explicitement identifiée et capture contrôlée visuellement."},
+  "klax": {"images": [{"provider": "libretro", "sourceFilename": "Klax (USA, Europe) (Tengen).png"}], "reason": "Version Tengen Mega Drive vérifiée et capture contrôlée visuellement."},
+  "raiden-trad": {"images": [{"provider": "libretro", "sourceFilename": "Raiden Densetsu ~ Raiden Trad (Japan, USA) (En).png"}], "reason": "Alias régional exact vérifié et capture contrôlée visuellement."}
+}
