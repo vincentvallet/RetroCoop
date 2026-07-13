@@ -1,0 +1,7 @@
+import Link from 'next/link';
+import {redirect} from 'next/navigation';
+import {currentUser} from '@/lib/auth';
+import {listMySessions,type SerializedSession} from '@/lib/sessions';
+export const dynamic='force-dynamic';
+function List({title,sessions}:{title:string;sessions:SerializedSession[]}){return <section className="my-session-group"><h2>{title}</h2>{sessions.length?<ul>{sessions.map(session=><li key={session.id}><Link href={`/sessions/${session.id}`}><strong>{session.game.title}</strong> — {new Intl.DateTimeFormat('fr-FR',{dateStyle:'medium',timeStyle:'short',timeZone:session.timezone}).format(new Date(session.startsAt))} — {session.status}</Link></li>)}</ul>:<p className="empty-state">Aucune session dans cette catégorie.</p>}</section>}
+export default async function MySessions(){const user=await currentUser();if(!user)redirect('/connexion?returnTo=/sessions/mes-sessions');const sessions=await listMySessions(user.id),organized=sessions.filter(session=>session.isOwner),joined=sessions.filter(session=>!session.isOwner&&session.isCurrentUserParticipant);return <main className="section wrap"><div className="sessions-heading"><div><h1>Mes sessions</h1><p>Les parties que vous organisez ou auxquelles vous participez.</p></div><Link className="btn" href="/sessions/nouvelle">Créer une session</Link></div><List title="J’organise" sessions={organized}/><List title="Je participe" sessions={joined}/></main>}

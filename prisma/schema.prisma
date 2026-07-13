@@ -19,8 +19,13 @@ enum VerificationStatus {
 enum SessionStatus {
   OPEN
   FULL
+  CLOSED
   CANCELLED
   COMPLETED
+}
+enum SessionVisibility {
+  PUBLIC
+  PRIVATE
 }
 enum ParticipantStatus {
   JOINED
@@ -155,9 +160,11 @@ model GameSession {
   timezoneAtCreation String
   locationType String
   privateJoinUrl String?
+  message String?
   minPlayers Int
   maxPlayers Int
   status SessionStatus @default(OPEN)
+  visibility SessionVisibility @default(PUBLIC)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   game Game @relation(fields: [gameId], references: [id])
@@ -172,7 +179,7 @@ model SessionParticipant {
   status ParticipantStatus
   joinedAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  session GameSession @relation(fields: [sessionId], references: [id])
+  session GameSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
   user User @relation(fields: [userId], references: [id])
   @@id([sessionId, userId])
   @@index([userId, status])

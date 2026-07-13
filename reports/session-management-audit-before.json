@@ -1,0 +1,14 @@
+{
+  "sessionHasCreatorId": true,
+  "creatorRelationIsValid": true,
+  "participantTableExists": true,
+  "joinEndpointExists": false,
+  "leaveEndpointExists": false,
+  "updateEndpointExists": false,
+  "deleteEndpointExists": false,
+  "cancelEndpointExists": false,
+  "ownerControlsExist": false,
+  "joinButtonExists": false,
+  "leaveButtonExists": false,
+  "authorizationIsServerSide": false
+}

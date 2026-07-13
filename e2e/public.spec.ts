@@ -94,7 +94,7 @@ test('parcours complet : inscription, persistance, publication, déconnexion et 
   await page.goto('/sessions/nouvelle');await expect(page.getByRole('button',{name:'Publier la session'})).toBeVisible();
   await page.getByLabel('Jeu').pressSequentially('Streets of Rage 3');await page.getByRole('option',{name:/Streets of Rage 3/}).click();
   const tomorrow=new Date(Date.now()+86400000).toISOString().slice(0,10);await page.getByLabel('Date',{exact:true}).fill(tomorrow);await page.getByLabel('Heure',{exact:true}).fill('20:00');
-  await page.getByRole('button',{name:'Publier la session'}).click();await expect(page).toHaveURL(/\/sessions\?notice=session-published/);await expect(page.getByText('Votre session a bien été publiée.')).toBeVisible();
+  await page.getByRole('button',{name:'Publier la session'}).click();await expect(page).toHaveURL(/\/sessions\/[^/]+\?notice=session-published/);await expect(page.getByText('Votre session a bien été publiée.')).toBeVisible();await expect(page.getByText('Vous organisez cette session.')).toBeVisible();
   const prisma=new PrismaClient();const stored=await prisma.gameSession.findFirst({where:{host:{email}},include:{participants:true}});await prisma.$disconnect();expect(stored?.participants).toHaveLength(1);
   await page.getByRole('button',{name:'Se déconnecter'}).click();await expect(page.getByRole('link',{name:'Connexion / Inscription'})).toBeVisible();
   await page.goto('/connexion?returnTo=/sessions/nouvelle');await page.getByLabel('Email').fill(email);
