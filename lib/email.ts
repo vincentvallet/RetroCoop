@@ -1,7 +1,8 @@
 import {prisma} from './db';
+import {legalConfig} from './legal-config';
 type JoinEmail={notificationId:string;sessionId:string;participantId:string;participantName:string;hostName:string;hostEmail:string;gameTitle:string;startsAt:Date;timezone:string;enabled:boolean};
 export async function sendJoinEmail(input:JoinEmail){
-  const key=process.env.RESEND_API_KEY,from=process.env.EMAIL_FROM,base=(process.env.APP_URL??'').replace(/\/$/,'');
+  const key=process.env.RESEND_API_KEY,from=legalConfig.defaultEmailFrom,base=(process.env.APP_URL??'').replace(/\/$/,'');
   if(!input.enabled||!key||!from||!base){await prisma.notification.update({where:{id:input.notificationId},data:{emailStatus:input.enabled?'DISABLED':'PREFERENCE_DISABLED'}});return}
   const recent=await prisma.notification.findFirst({where:{id:{not:input.notificationId},sessionId:input.sessionId,actorId:input.participantId,type:'SESSION_PARTICIPANT_JOINED',emailStatus:'SENT',emailSentAt:{gte:new Date(Date.now()-30*60*1000)}}});
   if(recent){await prisma.notification.update({where:{id:input.notificationId},data:{emailStatus:'RATE_LIMITED'}});return}

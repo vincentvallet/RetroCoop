@@ -12,7 +12,7 @@ Production : `https://retrocoop.onrender.com`
 | Jaquette fiche de session | PASS | Image 180 × 252 visible sur la fiche publique |
 | Anciennes sessions corrigées | PASS | La session historique résout le catalogue par `gameId` et affiche le média courant |
 | Médias hachés utilisés | PASS | `/covers/megadrive/world-of-illusion-…-4a48611e.webp` ; backfill 371/371 |
-| Email organisateur masqué | PASS | Identité publique observée : `m***@vincentvallet.com` |
+| Identité organisateur neutre | PASS | Les anciens pseudos ressemblant à un email utilisent désormais un alias `Joueur-XXXXXXXX` stable |
 | Email absent des API publiques | PASS | DTO explicites et assertions JSON E2E |
 | Chat organisateur autorisé | PASS | E2E local et public |
 | Chat participant autorisé | PASS | E2E local et public |

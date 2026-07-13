@@ -1,4 +1,19 @@
-export type PublicUser={id:string;username:string};
-const emailPattern=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-export function maskedEmail(value:string){const [name='',domain='']=value.trim().split('@');return domain?`${name.slice(0,1)||'*'}***@${domain}`:'Utilisateur RetroCoop'}
-export function publicUsername(username:string|null|undefined,email?:string|null){const value=username?.trim();if(value&&!emailPattern.test(value))return value;return maskedEmail(value||email||'')}
+import {createHash} from 'node:crypto';
+
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+export type PublicUser = {id: string; username: string};
+
+export function neutralPublicAlias(userId: string) {
+  const suffix = createHash('sha256')
+    .update(`retrocoop-public-alias:${userId}`)
+    .digest('hex')
+    .slice(0, 8)
+    .toUpperCase();
+  return `Joueur-${suffix}`;
+}
+
+export function publicUsername(username: string | null | undefined, userId: string) {
+  const value = username?.normalize('NFKC').trim();
+  return value && !emailPattern.test(value) ? value : neutralPublicAlias(userId);
+}

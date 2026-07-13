@@ -25,9 +25,9 @@ export async function chatAccess(sessionId:string,userId:string){
   if(session.hostId!==userId&&!session.participants.length)throw new ChatError(403,'Le chat est réservé aux participants actifs.','CHAT_FORBIDDEN');
   return{session,readOnly:session.status==='CANCELLED'||session.status==='COMPLETED'};
 }
-const messageInclude={author:{select:{id:true,username:true,email:true}}} satisfies Prisma.SessionMessageInclude;
+const messageInclude={author:{select:{id:true,username:true}}} satisfies Prisma.SessionMessageInclude;
 type MessageRow=Prisma.SessionMessageGetPayload<{include:typeof messageInclude}>;
-export function serializeChatMessage(message:MessageRow,currentUserId:string){return{id:message.id,content:message.deletedAt?'Message supprimé par la modération':message.content,createdAt:message.createdAt.toISOString(),deleted:Boolean(message.deletedAt),author:{id:message.author.id,username:publicUsername(message.author.username,message.author.email)},isOwnMessage:message.authorId===currentUserId,suspicious:message.suspicious}}
+export function serializeChatMessage(message:MessageRow,currentUserId:string){return{id:message.id,content:message.deletedAt?'Message supprimé par la modération':message.content,createdAt:message.createdAt.toISOString(),deleted:Boolean(message.deletedAt),author:{id:message.author.id,username:publicUsername(message.author.username,message.author.id)},isOwnMessage:message.authorId===currentUserId,suspicious:message.suspicious}}
 export async function listChatMessages(sessionId:string,userId:string,before?:Date){await chatAccess(sessionId,userId);const rows=await prisma.sessionMessage.findMany({where:{sessionId,...(before?{createdAt:{lt:before}}:{})},include:messageInclude,orderBy:{createdAt:'desc'},take:CHAT_INITIAL_LIMIT+1});const hasMore=rows.length>CHAT_INITIAL_LIMIT,messages=rows.slice(0,CHAT_INITIAL_LIMIT).reverse().map(row=>serializeChatMessage(row,userId));return{messages,hasMore,nextCursor:hasMore?rows[CHAT_INITIAL_LIMIT-1]?.createdAt.toISOString():null}}
 
 export async function sendChatMessage(sessionId:string,userId:string,input:{content?:unknown;clientRequestId?:unknown},ipHash:string){

@@ -18,9 +18,9 @@ export async function joinSession(sessionId:string,userId:string){
     const rejection=joinRejection({...session,participantIds:session.participants.map(item=>item.userId)},userId);if(rejection)fail(rejection.status,rejection.message,rejection.code);
     await tx.sessionParticipant.upsert({where:{sessionId_userId:{sessionId,userId}},create:{sessionId,userId,status:'JOINED'},update:{status:'JOINED',joinedAt:new Date()}});
     if(session.participants.length+1>=session.maxPlayers)await tx.gameSession.update({where:{id:sessionId},data:{status:'FULL'}});
-    const actor=await tx.user.findUniqueOrThrow({where:{id:userId},select:{username:true,email:true}}),actorName=publicUsername(actor.username,actor.email),date=new Intl.DateTimeFormat('fr-FR',{dateStyle:'medium',timeStyle:'short',timeZone:session.timezoneAtCreation}).format(session.startsAtUtc);
+    const actor=await tx.user.findUniqueOrThrow({where:{id:userId},select:{id:true,username:true}}),actorName=publicUsername(actor.username,actor.id),date=new Intl.DateTimeFormat('fr-FR',{dateStyle:'medium',timeStyle:'short',timeZone:session.timezoneAtCreation}).format(session.startsAtUtc);
     const notification=await tx.notification.create({data:{recipientId:session.hostId,actorId:userId,sessionId,type:'SESSION_PARTICIPANT_JOINED',title:'Un joueur a rejoint votre session',body:`${actorName} a rejoint votre session ${session.game.title} du ${date}.`}}),row=await tx.gameSession.findUniqueOrThrow({where:{id:sessionId},include:sessionInclude});
-    return{row,email:{notificationId:notification.id,sessionId,participantId:userId,participantName:actorName,hostName:publicUsername(session.host.username,session.host.email),hostEmail:session.host.email,gameTitle:session.game.title,startsAt:session.startsAtUtc,timezone:session.timezoneAtCreation,enabled:session.host.joinEmailEnabled}};
+    return{row,email:{notificationId:notification.id,sessionId,participantId:userId,participantName:actorName,hostName:publicUsername(session.host.username,session.host.id),hostEmail:session.host.email,gameTitle:session.game.title,startsAt:session.startsAtUtc,timezone:session.timezoneAtCreation,enabled:session.host.joinEmailEnabled}};
   });
   return{session:serializeSession(result.row,userId),email:result.email};
 }
