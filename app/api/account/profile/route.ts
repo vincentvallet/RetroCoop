@@ -1,0 +1,5 @@
+import {currentUserFromToken,sessionTokenFromRequest} from '@/lib/auth';
+import {accountError,updateAccountUsername} from '@/lib/account-management';
+import {accountRateLimited,recordAccountEvent,requestSecurityHash,sameOriginError} from '@/lib/request-security';
+
+export async function PATCH(request:Request){const csrf=sameOriginError(request);if(csrf)return csrf;const user=await currentUserFromToken(sessionTokenFromRequest(request));if(!user)return Response.json({error:'Authentification requise.'},{status:401});const ipHash=requestSecurityHash(request);if(await accountRateLimited(user.id,'USERNAME_CHANGE',ipHash,5,60*60_000))return Response.json({error:'Trop de modifications. Réessayez plus tard.'},{status:429});try{const input=await request.json(),updated=await updateAccountUsername(user.id,input.username);await recordAccountEvent(user.id,'USERNAME_CHANGE',ipHash,true).catch(()=>undefined);return Response.json({success:true,user:updated,message:'Votre pseudo a été mis à jour.'})}catch(error){await recordAccountEvent(user.id,'USERNAME_CHANGE',ipHash,false).catch(()=>undefined);return accountError(error)}}

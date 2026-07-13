@@ -1,0 +1,7 @@
+import {accountError,deleteAccount} from '@/lib/account-management';
+import {currentUserFromToken,expiredSessionCookie,hasFreshAuthentication,sessionTokenFromRequest} from '@/lib/auth';
+import {sendAccountDeletedEmail} from '@/lib/email';
+import {after} from 'next/server';
+import {accountRateLimited,recordAccountEvent,requestSecurityHash,sameOriginError} from '@/lib/request-security';
+
+export async function DELETE(request:Request){const csrf=sameOriginError(request);if(csrf)return csrf;const token=sessionTokenFromRequest(request),user=await currentUserFromToken(token);if(!user)return Response.json({error:'Authentification requise.'},{status:401});if(!hasFreshAuthentication(token))return Response.json({error:'Veuillez vous reconnecter avant cette opération sensible.'},{status:401});const ipHash=requestSecurityHash(request);if(await accountRateLimited(user.id,'ACCOUNT_DELETE',ipHash,5,60*60_000))return Response.json({error:'Trop de tentatives. Réessayez plus tard.'},{status:429});try{const input=await request.json(),deleted=await deleteAccount(user.id,input);await recordAccountEvent(user.id,'ACCOUNT_DELETE',ipHash,true).catch(()=>undefined);after(()=>sendAccountDeletedEmail({userId:user.id,email:deleted.email,deletionVersion:deleted.deletionVersion}).catch(()=>undefined));return Response.json({success:true,emailSent:false,message:'Votre compte a été supprimé.'},{headers:{'Set-Cookie':expiredSessionCookie()}})}catch(error){await recordAccountEvent(user.id,'ACCOUNT_DELETE',ipHash,false).catch(()=>undefined);return accountError(error)}}

@@ -110,30 +110,35 @@ model Game {
 }
 
 model User {
-  id                  String               @id @default(cuid())
-  email               String               @unique
-  username            String               @unique
-  usernameNormalized  String               @unique
+  id                  String                 @id @default(cuid())
+  email               String                 @unique
+  username            String                 @unique
+  usernameNormalized  String                 @unique
   passwordHash        String
-  timezone            String               @default("Europe/Paris")
+  timezone            String                 @default("Europe/Paris")
   city                String?
-  role                Role                 @default(USER)
-  status              String               @default("ACTIVE")
+  role                Role                   @default(USER)
+  status              String                 @default("ACTIVE")
   chatMutedUntil      DateTime?
-  joinEmailEnabled    Boolean              @default(true)
-  createdAt           DateTime             @default(now())
-  updatedAt           DateTime             @updatedAt
+  joinEmailEnabled    Boolean                @default(true)
+  leaveEmailEnabled   Boolean                @default(true)
+  authVersion         Int                    @default(0)
+  deletedAt           DateTime?
+  createdAt           DateTime               @default(now())
+  updatedAt           DateTime               @updatedAt
   hosted              GameSession[]
   participants        SessionParticipant[]
-  sentMessages        SessionMessage[]     @relation("MessageAuthor")
-  deletedMessages     SessionMessage[]     @relation("MessageDeletedBy")
-  notifications       Notification[]       @relation("NotificationRecipient")
-  notificationActions Notification[]       @relation("NotificationActor")
+  sentMessages        SessionMessage[]       @relation("MessageAuthor")
+  deletedMessages     SessionMessage[]       @relation("MessageDeletedBy")
+  notifications       Notification[]         @relation("NotificationRecipient")
+  notificationActions Notification[]         @relation("NotificationActor")
   messageReports      MessageReport[]
-  moderationActions   ModerationLog[]      @relation("ModerationActor")
-  moderationTargets   ModerationLog[]      @relation("ModerationTarget")
+  moderationActions   ModerationLog[]        @relation("ModerationActor")
+  moderationTargets   ModerationLog[]        @relation("ModerationTarget")
   chatRateEvents      ChatRateLimitEvent[]
   legalRequests       LegalRequest[]
+  emailDeliveries     EmailDelivery[]
+  accountEvents       AccountSecurityEvent[]
 }
 
 model GameMedia {
@@ -209,6 +214,7 @@ model GameSession {
   messages           SessionMessage[]
   notifications      Notification[]
   chatRateEvents     ChatRateLimitEvent[]
+  emailDeliveries    EmailDelivery[]
 
   @@index([gameId, startsAtUtc, status])
   @@index([hostId, startsAtUtc])
@@ -220,6 +226,7 @@ model SessionParticipant {
   status    ParticipantStatus
   joinedAt  DateTime          @default(now())
   updatedAt DateTime          @updatedAt
+  version   Int               @default(1)
   session   GameSession       @relation(fields: [sessionId], references: [id], onDelete: Cascade)
   user      User              @relation(fields: [userId], references: [id])
 
@@ -335,6 +342,40 @@ model LegalRequest {
   @@index([status, createdAt])
   @@index([ipHash, createdAt])
   @@index([userId, createdAt])
+}
+
+model EmailDelivery {
+  id             String       @id @default(cuid())
+  eventType      String
+  idempotencyKey String       @unique
+  userId         String?
+  sessionId      String?
+  providerId     String?
+  status         String
+  attempts       Int          @default(0)
+  lastErrorCode  String?
+  createdAt      DateTime     @default(now())
+  sentAt         DateTime?
+  failedAt       DateTime?
+  user           User?        @relation(fields: [userId], references: [id], onDelete: SetNull)
+  session        GameSession? @relation(fields: [sessionId], references: [id], onDelete: SetNull)
+
+  @@index([eventType, status, createdAt])
+  @@index([userId, createdAt])
+  @@index([sessionId, createdAt])
+}
+
+model AccountSecurityEvent {
+  id        String   @id @default(cuid())
+  userId    String?
+  action    String
+  ipHash    String
+  success   Boolean  @default(false)
+  createdAt DateTime @default(now())
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, action, createdAt])
+  @@index([ipHash, action, createdAt])
 }
 
 model ImportIssue {

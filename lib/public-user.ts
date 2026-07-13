@@ -15,5 +15,6 @@ export function neutralPublicAlias(userId: string) {
 
 export function publicUsername(username: string | null | undefined, userId: string) {
   const value = username?.normalize('NFKC').trim();
+  if (value?.startsWith('__deleted__')) return 'Utilisateur supprimé';
   return value && !emailPattern.test(value) ? value : neutralPublicAlias(userId);
 }

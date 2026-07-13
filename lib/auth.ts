@@ -4,10 +4,10 @@ import {safeEqual, sign} from '@/lib/registration-security';
 
 export const SESSION_COOKIE = 'retrocoop_session';
 export const SESSION_MAX_AGE = 7 * 24 * 60 * 60;
-type SessionPayload = {sub: string; exp: number};
+export type SessionPayload = {sub: string; exp: number; iat?: number; v?: number};
 
-export function createSessionToken(userId: string) {
-  const payload = Buffer.from(JSON.stringify({sub: userId, exp: Date.now() + SESSION_MAX_AGE * 1000} satisfies SessionPayload)).toString('base64url');
+export function createSessionToken(userId: string, authVersion = 0) {
+  const payload = Buffer.from(JSON.stringify({sub: userId, exp: Date.now() + SESSION_MAX_AGE * 1000, iat: Date.now(), v: authVersion} satisfies SessionPayload)).toString('base64url');
   return `${payload}.${sign(payload)}`;
 }
 
@@ -21,6 +21,11 @@ export function readSessionToken(token?: string | null): SessionPayload | null {
   } catch { return null; }
 }
 
+export function hasFreshAuthentication(token?: string | null, maximumAgeMs = 30 * 60 * 1000) {
+  const payload = readSessionToken(token);
+  return Boolean(payload?.iat && payload.iat >= Date.now() - maximumAgeMs);
+}
+
 export function sessionCookie(token: string) {
   return `${SESSION_COOKIE}=${token}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${SESSION_MAX_AGE}${process.env.NODE_ENV === 'production' ? '; Secure' : ''}`;
 }
@@ -32,7 +37,8 @@ export function expiredSessionCookie() {
 export async function currentUserFromToken(token?: string | null) {
   const payload = readSessionToken(token);
   if (!payload) return null;
-  const select={id:true,username:true,email:true,role:true,chatMutedUntil:true,joinEmailEnabled:true} as const,user=await prisma.user.findFirst({where:{id:payload.sub,status:'ACTIVE'},select});
+  const select={id:true,username:true,email:true,role:true,chatMutedUntil:true,joinEmailEnabled:true,leaveEmailEnabled:true,authVersion:true} as const,user=await prisma.user.findFirst({where:{id:payload.sub,status:'ACTIVE'},select});
+  if(user&&user.authVersion!==(payload.v??0))return null;
   if(user&&process.env.ADMIN_EMAIL&&user.email.toLocaleLowerCase()===process.env.ADMIN_EMAIL.trim().toLocaleLowerCase()&&user.role!=='ADMIN')return prisma.user.update({where:{id:user.id},data:{role:'ADMIN'},select});
   return user;
 }

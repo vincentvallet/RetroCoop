@@ -30,7 +30,7 @@ test('navigation instantanée, circulaire, filtrée et tactile',async({page})=>{
 });
 
 test('session : réponse 201, PostgreSQL, listes, rechargement et reconnexion',async({page})=>{
-  const stamp=Date.now(),email=`session-${stamp}@retrocoop.test`,username=`session${stamp}`.slice(0,32),password='Test-pass-2026!';
+  const stamp=Date.now(),email=`session-${stamp}@retrocoop.test`,username=`session${stamp}`.slice(0,24),password='Test-pass-2026!';
   await page.goto('/inscription');const question=await page.getByText(/Combien font \d+ \+ \d+/).textContent(),values=question!.match(/\d+/g)!.map(Number);
   await page.getByLabel('Email').fill(email);await page.getByLabel('Pseudo').fill(username);await page.getByLabel('Mot de passe').fill(password);await page.getByLabel(/Combien font/).fill(String(values[0]+values[1]));await page.getByRole('checkbox').check();await page.getByRole('button',{name:'Créer mon compte'}).click();await expect(page).toHaveURL(/\/catalogue\?notice=registered/);
   await page.goto('/sessions/nouvelle');await page.getByLabel('Jeu').pressSequentially('Streets of Rage 3');await page.getByRole('option',{name:/Streets of Rage 3/}).click();

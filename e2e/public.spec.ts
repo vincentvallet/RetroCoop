@@ -69,7 +69,7 @@ test('inscription lisible aux quatre largeurs demandées',async({page})=>{for(co
 
 test('parcours complet : inscription, persistance, publication, déconnexion et reconnexion', async ({page}) => {
   const stamp=Date.now();
-  const email=`e2e-${stamp}@retrocoop.test`,username=`e2e${stamp}`.slice(0,32);
+  const email=`e2e-${stamp}@retrocoop.test`,username=`e2e${stamp}`.slice(0,24);
   await page.goto('/');
   await expect(page.getByRole('link',{name:'Connexion / Inscription'})).toBeVisible();
   await page.getByRole('link',{name:'Connexion / Inscription'}).click();

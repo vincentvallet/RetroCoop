@@ -8,7 +8,7 @@ import {independenceNotice, legalConfig} from '@/lib/legal-config';
 export const metadata = {metadataBase: new URL(process.env.APP_URL || 'http://localhost:3000'), title: {default: 'Retro Coop — Jouons ensemble', template: '%s | Retro Coop'}, description: 'Catalogue et rendez-vous pour jouer ensemble aux jeux rétro multijoueurs.'};
 
 export default function Layout({children}: {children: React.ReactNode}) {
-  return <html lang="fr"><body>
+  return <html lang="fr" data-scroll-behavior="smooth"><body>
     <SiteHeader/>
     <Suspense><Notice/></Suspense>
     {children}
