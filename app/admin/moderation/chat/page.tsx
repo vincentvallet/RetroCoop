@@ -1,0 +1,2 @@
+import {redirect} from 'next/navigation';import {currentUser} from '@/lib/auth';import ChatModeration from '@/components/ChatModeration';
+export default async function ModerationPage(){const user=await currentUser();if(!user)redirect('/connexion?returnTo=/admin/moderation/chat');if(user.role!=='ADMIN'&&user.role!=='MODERATOR')redirect('/catalogue');return <main className="section wrap"><h1>Modération du chat</h1><p>Messages récents, signalements, suspensions et événements antiflood.</p><ChatModeration/></main>}

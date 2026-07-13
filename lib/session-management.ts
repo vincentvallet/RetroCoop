@@ -2,6 +2,7 @@ import {Prisma} from '@prisma/client';
 import {prisma} from '@/lib/db';
 import {serializeSession,sessionInclude} from '@/lib/sessions';
 import {capacityStatus,joinRejection} from '@/lib/session-rules';
+import {publicUsername} from '@/lib/public-user';
 
 export class SessionActionError extends Error{constructor(public status:number,message:string,public code:string){super(message)}}
 function fail(status:number,message:string,code:string):never{throw new SessionActionError(status,message,code)}
@@ -12,13 +13,16 @@ async function serializable<T>(operation:(tx:Prisma.TransactionClient)=>Promise<
 }
 
 export async function joinSession(sessionId:string,userId:string){
-  return serializable(async tx=>{
-    const session=await tx.gameSession.findUnique({where:{id:sessionId},include:{participants:{where:{status:'JOINED'},select:{userId:true}}}});if(!session)fail(404,'Session introuvable.','NOT_FOUND');
+  const result=await serializable(async tx=>{
+    const session=await tx.gameSession.findUnique({where:{id:sessionId},include:{participants:{where:{status:'JOINED'},select:{userId:true}},game:{select:{title:true}},host:{select:{id:true,email:true,username:true,joinEmailEnabled:true}}}});if(!session)fail(404,'Session introuvable.','NOT_FOUND');
     const rejection=joinRejection({...session,participantIds:session.participants.map(item=>item.userId)},userId);if(rejection)fail(rejection.status,rejection.message,rejection.code);
     await tx.sessionParticipant.upsert({where:{sessionId_userId:{sessionId,userId}},create:{sessionId,userId,status:'JOINED'},update:{status:'JOINED',joinedAt:new Date()}});
     if(session.participants.length+1>=session.maxPlayers)await tx.gameSession.update({where:{id:sessionId},data:{status:'FULL'}});
-    return tx.gameSession.findUniqueOrThrow({where:{id:sessionId},include:sessionInclude});
-  }).then(row=>serializeSession(row,userId));
+    const actor=await tx.user.findUniqueOrThrow({where:{id:userId},select:{username:true,email:true}}),actorName=publicUsername(actor.username,actor.email),date=new Intl.DateTimeFormat('fr-FR',{dateStyle:'medium',timeStyle:'short',timeZone:session.timezoneAtCreation}).format(session.startsAtUtc);
+    const notification=await tx.notification.create({data:{recipientId:session.hostId,actorId:userId,sessionId,type:'SESSION_PARTICIPANT_JOINED',title:'Un joueur a rejoint votre session',body:`${actorName} a rejoint votre session ${session.game.title} du ${date}.`}}),row=await tx.gameSession.findUniqueOrThrow({where:{id:sessionId},include:sessionInclude});
+    return{row,email:{notificationId:notification.id,sessionId,participantId:userId,participantName:actorName,hostName:publicUsername(session.host.username,session.host.email),hostEmail:session.host.email,gameTitle:session.game.title,startsAt:session.startsAtUtc,timezone:session.timezoneAtCreation,enabled:session.host.joinEmailEnabled}};
+  });
+  return{session:serializeSession(result.row,userId),email:result.email};
 }
 
 export async function leaveSession(sessionId:string,userId:string){

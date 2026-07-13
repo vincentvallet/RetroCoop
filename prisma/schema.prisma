@@ -1,21 +1,25 @@
 generator client {
   provider = "prisma-client-js"
 }
+
 datasource db {
-  provider = "postgresql"
-  url = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
   directUrl = env("DIRECT_URL")
 }
+
 enum Role {
   USER
   MODERATOR
   ADMIN
 }
+
 enum VerificationStatus {
   VERIFIED
   PROBABLE
   TO_REVIEW
 }
+
 enum SessionStatus {
   OPEN
   FULL
@@ -23,182 +27,311 @@ enum SessionStatus {
   CANCELLED
   COMPLETED
 }
+
 enum SessionVisibility {
   PUBLIC
   PRIVATE
 }
+
 enum ParticipantStatus {
   JOINED
   WAITLIST
   LEFT
   REMOVED
 }
+
 model Platform {
-  id String @id @default(cuid())
-  name String
-  slug String @unique
+  id           String   @id @default(cuid())
+  name         String
+  slug         String   @unique
   manufacturer String?
-  active Boolean @default(true)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  games Game[]
+  active       Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  games        Game[]
 }
+
 model Game {
-  id String @id @default(cuid())
-  platformId String
-  platform Platform @relation(fields: [platformId], references: [id])
-  title String
-  sortTitle String
-  slug String
-  aliases Json @default("[]")
-  region String?
-  releaseYear Int?
-  description String?
-  descriptionSourceType String?
-  descriptionSourceUrl String?
-  descriptionSourceLanguage String?
-  descriptionAdaptedToFrench Boolean @default(false)
+  id                          String             @id @default(cuid())
+  platformId                  String
+  platform                    Platform           @relation(fields: [platformId], references: [id])
+  title                       String
+  sortTitle                   String
+  slug                        String
+  aliases                     Json               @default("[]")
+  region                      String?
+  releaseYear                 Int?
+  description                 String?
+  descriptionSourceType       String?
+  descriptionSourceUrl        String?
+  descriptionSourceLanguage   String?
+  descriptionAdaptedToFrench  Boolean            @default(false)
   descriptionVerifiedPlatform String?
-  metadataSource String?
-  metadataExternalId String?
-  metadataUpdatedAt DateTime?
-  coverUrl String?
-  coverSource String?
-  coverAttribution String?
-  gameplayImages Json @default("[]")
-  externalRating Float?
-  externalRatingCount Int?
-  externalRatingProvider String?
-  externalRatingType String?
-  externalRatingUpdatedAt DateTime?
-  genres Json @default("[]")
-  tags Json @default("[]")
-  playerMin Int?
-  playerMax Int?
-  simultaneous Boolean?
-  alternating Boolean?
-  coop Boolean?
-  versus Boolean?
-  dropIn Boolean?
-  splitScreen Boolean?
-  multitap Boolean?
-  verificationStatus VerificationStatus @default(TO_REVIEW)
-  published Boolean @default(true)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  sessions GameSession[]
-  media GameMedia[]
+  metadataSource              String?
+  metadataExternalId          String?
+  metadataUpdatedAt           DateTime?
+  coverUrl                    String?
+  coverWebpPath               String?
+  coverJpegPath               String?
+  coverBlurData               String?
+  coverSourceName             String?
+  coverSourceUrl              String?
+  sourceConfidence            String?
+  teamPlayerCompatible        Boolean?
+  coverSource                 String?
+  coverAttribution            String?
+  gameplayImages              Json               @default("[]")
+  externalRating              Float?
+  externalRatingCount         Int?
+  externalRatingProvider      String?
+  externalRatingType          String?
+  externalRatingUpdatedAt     DateTime?
+  genres                      Json               @default("[]")
+  tags                        Json               @default("[]")
+  playerMin                   Int?
+  playerMax                   Int?
+  simultaneous                Boolean?
+  alternating                 Boolean?
+  coop                        Boolean?
+  versus                      Boolean?
+  dropIn                      Boolean?
+  splitScreen                 Boolean?
+  multitap                    Boolean?
+  verificationStatus          VerificationStatus @default(TO_REVIEW)
+  published                   Boolean            @default(true)
+  createdAt                   DateTime           @default(now())
+  updatedAt                   DateTime           @updatedAt
+  sessions                    GameSession[]
+  media                       GameMedia[]
+
   @@unique([platformId, slug])
   @@index([platformId, sortTitle])
   @@index([platformId, releaseYear])
 }
+
 model User {
-  id String @id @default(cuid())
-  email String @unique
-  username String @unique
-  usernameNormalized String @unique
-  passwordHash String
-  timezone String @default("Europe/Paris")
-  role Role @default(USER)
-  status String @default("ACTIVE")
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  hosted GameSession[]
-  participants SessionParticipant[]
+  id                  String               @id @default(cuid())
+  email               String               @unique
+  username            String               @unique
+  usernameNormalized  String               @unique
+  passwordHash        String
+  timezone            String               @default("Europe/Paris")
+  city                String?
+  role                Role                 @default(USER)
+  status              String               @default("ACTIVE")
+  chatMutedUntil      DateTime?
+  joinEmailEnabled    Boolean              @default(true)
+  createdAt           DateTime             @default(now())
+  updatedAt           DateTime             @updatedAt
+  hosted              GameSession[]
+  participants        SessionParticipant[]
+  sentMessages        SessionMessage[]     @relation("MessageAuthor")
+  deletedMessages     SessionMessage[]     @relation("MessageDeletedBy")
+  notifications       Notification[]       @relation("NotificationRecipient")
+  notificationActions Notification[]       @relation("NotificationActor")
+  messageReports      MessageReport[]
+  moderationActions   ModerationLog[]      @relation("ModerationActor")
+  moderationTargets   ModerationLog[]      @relation("ModerationTarget")
+  chatRateEvents      ChatRateLimitEvent[]
 }
+
 model GameMedia {
-  id String @id @default(cuid())
-  gameId String
-  type String
-  path String
-  source String
-  sourceUrl String?
+  id               String   @id @default(cuid())
+  gameId           String
+  type             String
+  path             String
+  source           String
+  sourceUrl        String?
   sourceExternalId String?
-  sourceFilename String?
-  width Int
-  height Int
-  fileSize Int
-  sortOrder Int @default(1)
-  platformVerified Boolean @default(false)
+  sourceFilename   String?
+  width            Int
+  height           Int
+  fileSize         Int
+  sortOrder        Int      @default(1)
+  platformVerified Boolean  @default(false)
   verifiedPlatform String?
-  verifiedTitle String?
-  region String?
-  commercialCover Boolean @default(false)
-  prototypeVisual Boolean @default(false)
-  importedAt DateTime @default(now())
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  game Game @relation(fields:[gameId],references:[id],onDelete:Cascade)
-  @@unique([gameId,type,sortOrder])
+  verifiedTitle    String?
+  region           String?
+  commercialCover  Boolean  @default(false)
+  prototypeVisual  Boolean  @default(false)
+  importedAt       DateTime @default(now())
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  game             Game     @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@unique([gameId, type, sortOrder])
 }
+
 model RegistrationChallenge {
-  id String @id @default(cuid())
-  tokenHash String @unique
+  id         String    @id @default(cuid())
+  tokenHash  String    @unique
   answerHash String
-  expiresAt DateTime
-  usedAt DateTime?
-  createdAt DateTime @default(now())
+  expiresAt  DateTime
+  usedAt     DateTime?
+  createdAt  DateTime  @default(now())
+
   @@index([expiresAt])
 }
+
 model RegistrationAttempt {
-  id String @id @default(cuid())
-  ipHash String
-  emailNormalized String?
+  id                 String   @id @default(cuid())
+  ipHash             String
+  emailNormalized    String?
   usernameNormalized String?
-  success Boolean @default(false)
-  createdAt DateTime @default(now())
-  @@index([ipHash,createdAt])
-  @@index([emailNormalized,createdAt])
-  @@index([usernameNormalized,createdAt])
+  success            Boolean  @default(false)
+  createdAt          DateTime @default(now())
+
+  @@index([ipHash, createdAt])
+  @@index([emailNormalized, createdAt])
+  @@index([usernameNormalized, createdAt])
 }
+
 model GameSession {
-  id String @id @default(cuid())
-  gameId String
-  hostId String
-  startsAtUtc DateTime
-  durationMinutes Int
+  id                 String               @id @default(cuid())
+  gameId             String
+  hostId             String
+  startsAtUtc        DateTime
+  durationMinutes    Int
   timezoneAtCreation String
-  locationType String
-  privateJoinUrl String?
-  message String?
-  minPlayers Int
-  maxPlayers Int
-  status SessionStatus @default(OPEN)
-  visibility SessionVisibility @default(PUBLIC)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  game Game @relation(fields: [gameId], references: [id])
-  host User @relation(fields: [hostId], references: [id])
-  participants SessionParticipant[]
+  locationType       String
+  privateJoinUrl     String?
+  message            String?
+  minPlayers         Int
+  maxPlayers         Int
+  status             SessionStatus        @default(OPEN)
+  visibility         SessionVisibility    @default(PUBLIC)
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime             @updatedAt
+  game               Game                 @relation(fields: [gameId], references: [id])
+  host               User                 @relation(fields: [hostId], references: [id])
+  participants       SessionParticipant[]
+  messages           SessionMessage[]
+  notifications      Notification[]
+  chatRateEvents     ChatRateLimitEvent[]
+
   @@index([gameId, startsAtUtc, status])
   @@index([hostId, startsAtUtc])
 }
+
 model SessionParticipant {
   sessionId String
-  userId String
-  status ParticipantStatus
-  joinedAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  session GameSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
-  user User @relation(fields: [userId], references: [id])
+  userId    String
+  status    ParticipantStatus
+  joinedAt  DateTime          @default(now())
+  updatedAt DateTime          @updatedAt
+  session   GameSession       @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  user      User              @relation(fields: [userId], references: [id])
+
   @@id([sessionId, userId])
   @@index([userId, status])
 }
+
+model SessionMessage {
+  id               String          @id @default(cuid())
+  sessionId        String
+  authorId         String
+  content          String
+  contentHash      String
+  clientRequestId  String?
+  suspicious       Boolean         @default(false)
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+  deletedAt        DateTime?
+  deletedById      String?
+  moderationReason String?
+  session          GameSession     @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  author           User            @relation("MessageAuthor", fields: [authorId], references: [id], onDelete: Cascade)
+  deletedBy        User?           @relation("MessageDeletedBy", fields: [deletedById], references: [id], onDelete: SetNull)
+  reports          MessageReport[]
+  moderationLogs   ModerationLog[]
+
+  @@unique([sessionId, authorId, clientRequestId])
+  @@index([sessionId, createdAt])
+  @@index([authorId, createdAt])
+  @@index([sessionId, authorId, contentHash, createdAt])
+}
+
+model MessageReport {
+  id         String         @id @default(cuid())
+  messageId  String
+  reporterId String
+  reason     String
+  details    String?
+  status     String         @default("OPEN")
+  createdAt  DateTime       @default(now())
+  message    SessionMessage @relation(fields: [messageId], references: [id], onDelete: Cascade)
+  reporter   User           @relation(fields: [reporterId], references: [id], onDelete: Cascade)
+
+  @@unique([messageId, reporterId])
+  @@index([status, createdAt])
+}
+
+model ModerationLog {
+  id           String          @id @default(cuid())
+  actorId      String?
+  targetUserId String?
+  messageId    String?
+  action       String
+  reason       String?
+  createdAt    DateTime        @default(now())
+  actor        User?           @relation("ModerationActor", fields: [actorId], references: [id], onDelete: SetNull)
+  targetUser   User?           @relation("ModerationTarget", fields: [targetUserId], references: [id], onDelete: SetNull)
+  message      SessionMessage? @relation(fields: [messageId], references: [id], onDelete: SetNull)
+
+  @@index([createdAt])
+  @@index([targetUserId, createdAt])
+}
+
+model ChatRateLimitEvent {
+  id        String      @id @default(cuid())
+  sessionId String
+  userId    String?
+  ipHash    String
+  outcome   String
+  createdAt DateTime    @default(now())
+  session   GameSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  user      User?       @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, sessionId, createdAt])
+  @@index([ipHash, createdAt])
+}
+
+model Notification {
+  id          String       @id @default(cuid())
+  recipientId String
+  actorId     String?
+  sessionId   String?
+  type        String
+  title       String
+  body        String
+  readAt      DateTime?
+  emailStatus String       @default("DISABLED")
+  emailSentAt DateTime?
+  createdAt   DateTime     @default(now())
+  recipient   User         @relation("NotificationRecipient", fields: [recipientId], references: [id], onDelete: Cascade)
+  actor       User?        @relation("NotificationActor", fields: [actorId], references: [id], onDelete: SetNull)
+  session     GameSession? @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@index([recipientId, readAt, createdAt])
+  @@index([sessionId, actorId, type, createdAt])
+}
+
 model ImportIssue {
-  id String @id @default(cuid())
-  type String
+  id         String   @id @default(cuid())
+  type       String
   sourceName String
   sourceLine Int?
-  payload Json
-  status String @default("OPEN")
-  createdAt DateTime @default(now())
+  payload    Json
+  status     String   @default("OPEN")
+  createdAt  DateTime @default(now())
 }
+
 model AuditLog {
-  id String @id @default(cuid())
-  actorId String?
-  action String
+  id         String   @id @default(cuid())
+  actorId    String?
+  action     String
   entityType String
-  entityId String?
-  metadata Json
-  createdAt DateTime @default(now())
+  entityId   String?
+  metadata   Json
+  createdAt  DateTime @default(now())
 }

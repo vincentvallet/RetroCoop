@@ -1,0 +1,4 @@
+import {prisma} from '@/lib/db';
+export type NotificationRow={id:string;type:string;title:string;body:string;readAt:Date|null;createdAt:Date;sessionId:string|null};
+export function serializeNotification(item:NotificationRow){return{id:item.id,type:item.type,title:item.title,body:item.body,readAt:item.readAt?.toISOString()??null,createdAt:item.createdAt.toISOString(),sessionId:item.sessionId,href:item.sessionId?`/sessions/${item.sessionId}`:null}}
+export async function notificationList(userId:string){const [items,unreadCount]=await Promise.all([prisma.notification.findMany({where:{recipientId:userId},select:{id:true,type:true,title:true,body:true,readAt:true,createdAt:true,sessionId:true},orderBy:{createdAt:'desc'},take:20}),prisma.notification.count({where:{recipientId:userId,readAt:null}})]);return{notifications:items.map(serializeNotification),unreadCount}}

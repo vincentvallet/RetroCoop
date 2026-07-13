@@ -1,0 +1,2 @@
+import {redirect} from 'next/navigation';import {currentUser} from '@/lib/auth';import EmailPreference from '@/components/EmailPreference';import {publicUsername} from '@/lib/public-user';
+export default async function AccountPage(){const user=await currentUser();if(!user)redirect('/connexion?returnTo=/compte');return <main className="section wrap account-page"><h1>Mon compte</h1><p><strong>Pseudo :</strong> {publicUsername(user.username,user.email)}</p><section><h2>Notifications</h2><EmailPreference initial={user.joinEmailEnabled}/></section></main>}

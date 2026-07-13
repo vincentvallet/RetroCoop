@@ -1,0 +1,2 @@
+import {currentUserFromToken,sessionTokenFromRequest} from '@/lib/auth';
+export async function requireAdmin(request:Request){const user=await currentUserFromToken(sessionTokenFromRequest(request));if(!user)return{response:Response.json({error:'Authentification requise.'},{status:401}),user:null};if(user.role!=='ADMIN'&&user.role!=='MODERATOR')return{response:Response.json({error:'Accès administrateur requis.'},{status:403}),user:null};return{response:null,user}}

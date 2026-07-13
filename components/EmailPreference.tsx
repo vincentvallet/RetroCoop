@@ -1,0 +1,3 @@
+'use client';
+import {useState} from 'react';
+export default function EmailPreference({initial}:{initial:boolean}){const [enabled,setEnabled]=useState(initial),[saved,setSaved]=useState(false);async function change(value:boolean){setEnabled(value);setSaved(false);const response=await fetch('/api/account/preferences',{method:'PATCH',credentials:'include',headers:{'Content-Type':'application/json'},body:JSON.stringify({joinEmailEnabled:value})});setSaved(response.ok)}return <label className="preference-check"><input type="checkbox" checked={enabled} onChange={event=>change(event.target.checked)}/>Recevoir un email lorsqu’un joueur rejoint l’une de mes sessions {saved&&<small>Enregistré</small>}</label>}

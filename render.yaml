@@ -12,6 +12,9 @@ services:
       - {key: DIRECT_URL, sync: false}
       - {key: AUTH_SECRET, generateValue: true}
       - {key: APP_URL, sync: false}
+      - {key: ADMIN_EMAIL, sync: false}
+      - {key: RESEND_API_KEY, sync: false}
+      - {key: EMAIL_FROM, sync: false}
       - {key: NEXT_PUBLIC_MEDIA_BASE_URL, sync: false}
       - {key: NODE_ENV, value: production}
       - {key: NODE_VERSION, value: 22.18.0}

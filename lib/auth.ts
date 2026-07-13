@@ -32,7 +32,9 @@ export function expiredSessionCookie() {
 export async function currentUserFromToken(token?: string | null) {
   const payload = readSessionToken(token);
   if (!payload) return null;
-  return prisma.user.findFirst({where: {id: payload.sub, status: 'ACTIVE'}, select: {id: true, username: true, email: true, role: true}});
+  const select={id:true,username:true,email:true,role:true,chatMutedUntil:true,joinEmailEnabled:true} as const,user=await prisma.user.findFirst({where:{id:payload.sub,status:'ACTIVE'},select});
+  if(user&&process.env.ADMIN_EMAIL&&user.email.toLocaleLowerCase()===process.env.ADMIN_EMAIL.trim().toLocaleLowerCase()&&user.role!=='ADMIN')return prisma.user.update({where:{id:user.id},data:{role:'ADMIN'},select});
+  return user;
 }
 
 export function sessionTokenFromRequest(request: Request) {

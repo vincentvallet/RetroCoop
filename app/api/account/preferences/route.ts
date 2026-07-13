@@ -1,0 +1,2 @@
+import {currentUserFromToken,sessionTokenFromRequest} from '@/lib/auth';import {prisma} from '@/lib/db';
+export async function PATCH(request:Request){const user=await currentUserFromToken(sessionTokenFromRequest(request));if(!user)return Response.json({error:'Authentification requise.'},{status:401});const input=await request.json();if(typeof input.joinEmailEnabled!=='boolean')return Response.json({error:'Préférence invalide.'},{status:400});await prisma.user.update({where:{id:user.id},data:{joinEmailEnabled:input.joinEmailEnabled}});return Response.json({success:true})}

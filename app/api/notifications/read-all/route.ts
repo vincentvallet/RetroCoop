@@ -1,0 +1,2 @@
+import {currentUserFromToken,sessionTokenFromRequest} from '@/lib/auth';import {prisma} from '@/lib/db';
+export async function POST(request:Request){const user=await currentUserFromToken(sessionTokenFromRequest(request));if(!user)return Response.json({error:'Authentification requise.'},{status:401});await prisma.notification.updateMany({where:{recipientId:user.id,readAt:null},data:{readAt:new Date()}});return Response.json({success:true})}
