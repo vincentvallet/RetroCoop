@@ -9,3 +9,5 @@ data/cache
 .cache/
 
 tsconfig.tsbuildinfo
+
+tsconfig.tsbuildinfo
