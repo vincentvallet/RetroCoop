@@ -6,3 +6,5 @@ playwright-report
 test-results
 data/cache
 .cache/
+
+tsconfig.tsbuildinfo
