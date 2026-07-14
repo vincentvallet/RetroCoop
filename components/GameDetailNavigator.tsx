@@ -59,7 +59,7 @@ export function GameDetailNavigator({initialSlug}:{initialSlug:string}){
 
   if(!game)return null;
   return <main className="section wrap game-navigator" data-testid="game-navigator" data-game-slug={game.slug} data-context-size={order.length}>
-    <div className="game-nav-top"><Link href="/catalogue">← Catalogue</Link><span aria-live="polite">{index+1} / {order.length}</span></div>
+    <div className="game-nav-top"><Link href="/catalogue">← Jeux coop MD</Link><span aria-live="polite">{index+1} / {order.length}</span></div>
     <div className="game-nav-shell">
       <button className="game-nav-arrow previous" type="button" onClick={()=>show(previous.slug)} aria-label={`Jeu précédent : ${previous.title}`} title="Jeu précédent (flèche gauche)">‹</button>
       <div className="game-detail">

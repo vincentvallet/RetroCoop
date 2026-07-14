@@ -1,1 +1,15 @@
-export default function HowToPlay(){return <main className="section wrap how-to"><h1>Comment jouer en ligne ?</h1><p className="lead">Retro Coop vous aide à choisir un jeu et organiser la session. Partigo Retro Online fournit ensuite l’espace de jeu partagé.</p><a className="btn partigo" href="https://partigo-retro-online.onrender.com/" target="_blank" rel="noopener noreferrer">Ouvrir Partigo Retro Online</a><h2>Étapes</h2><ol><li>Choisissez un jeu dans le catalogue Retro Coop.</li><li>Créez ou rejoignez une session.</li><li>Ouvrez Partigo Retro Online.</li><li>L’hôte lance ou affiche le jeu choisi.</li><li>Le second joueur rejoint la partie grâce au lien communiqué.</li><li>Une fois le jeu visible, indiquez que vous êtes prêt.</li><li>Activez le chat vocal en bas de l’interface si nécessaire.</li><li>Jouez depuis un ordinateur, une tablette ou un smartphone compatible.</li></ol><h2>Conseils</h2><ul><li>Utilisez une connexion stable et un navigateur récent.</li><li>Branchez une manette Bluetooth ou USB si possible.</li><li>Vérifiez le son et autorisez le microphone pour le chat vocal.</li><li>Fermez les applications consommant beaucoup de bande passante.</li></ul><aside><h2>Tutoriel vidéo à venir</h2><p>Une vidéo explicative détaillée sera ajoutée lorsque le prototype de Partigo Retro sera davantage abouti.</p></aside></main>}
+export const metadata = {
+  title: 'Organiser une session',
+  description: 'Découvrez comment convenir d’une date et organiser une session de jeu rétro multijoueur avec RetroCoop.',
+};
+
+export default function HowToPlay() {
+  return <main className="section wrap how-to">
+    <h1>Organiser une session</h1>
+    <p>RetroCoop est un lieu de rencontre destiné aux passionnés de jeux rétro multijoueurs. Le site permet de convenir ensemble d’une date pour jouer à un jeu.</p>
+    <p>RetroCoop ne fournit et n’héberge aucun jeu, aucune ROM et aucun BIOS. Les participants choisissent librement le matériel, le logiciel ou la plateforme qu’ils souhaitent utiliser pour leur session.</p>
+    <p>RetroCoop propose une interface web gratuite et facultative codée en quelques heures par IA. L’hôte peut y charger localement, dans la mémoire de son navigateur, un fichier compatible qu’il est légalement autorisé à utiliser. Ce fichier reste sur son appareil : il n’est ni téléversé sur un serveur, ni transmis à l’autre participant. L’autre participant reçoit uniquement le flux de la partie et peut envoyer ses commandes à distance.</p>
+    <p>Avant de lancer une session, l’hôte doit confirmer disposer des droits nécessaires pour utiliser le fichier sélectionné. Chaque participant reste responsable du respect des droits et des conditions d’utilisation applicables au jeu concerné. Les deux participants peuvent également communiquer par micro dans cette même interface.</p>
+    <p className="external-link-line"><a href="https://partigo-retro-online.onrender.com" target="_blank" rel="noopener noreferrer" aria-label="Découvrir l’interface — lien externe, nouvel onglet">Découvrir l’interface</a></p>
+  </main>;
+}

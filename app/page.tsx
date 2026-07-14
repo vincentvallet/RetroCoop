@@ -26,10 +26,10 @@ export default function Home() {
       <article>
         <h1>Proposez un jeu, fixez une date, jouez ensemble</h1>
         <p>Redécouvrez les jeux rétro et trouvez des partenaires de jeu</p>
-        <Link className="btn" href="/catalogue">Explorer le catalogue</Link>
+        <Link className="btn" href="/catalogue">Explorer les jeux coop MD</Link>
       </article>
     </div>
-    <section className="catalogue-counter" aria-label="Taille du catalogue">
+    <section className="catalogue-counter" aria-label="Nombre de jeux coop MD">
       <strong>Explorez {games.length} jeux Mega Drive multijoueurs</strong>
       <span>À 2 joueurs ou plus</span>
     </section>
@@ -44,4 +44,3 @@ export default function Home() {
     </section>
   </main>;
 }
-

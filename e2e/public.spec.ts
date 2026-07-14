@@ -13,6 +13,30 @@ test('accueil et sélection éditoriale', async ({page}) => {
   await expect(page.locator('img[src^="http"]')).toHaveCount(0);
 });
 
+test('navigation renommée et page d’organisation sur ordinateur et mobile', async ({page}) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({width, height: 844});
+    await page.goto('/');
+    const navigation = page.getByRole('navigation', {name: 'Navigation principale'});
+    await expect(navigation.getByRole('link', {name: 'Jeux coop MD'})).toHaveAttribute('href', '/catalogue');
+    await expect(navigation.getByRole('link', {name: 'Organiser une session'})).toHaveAttribute('href', '/comment-jouer');
+    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+  }
+
+  await page.goto('/catalogue');
+  await expect(page.getByRole('heading', {level: 1, name: 'Jeux coop MD'})).toBeVisible();
+  await expect(page).toHaveTitle(/Jeux coop MD/);
+
+  await page.goto('/comment-jouer');
+  await expect(page.getByRole('heading', {level: 1, name: 'Organiser une session'})).toBeVisible();
+  await expect(page).toHaveTitle(/Organiser une session/);
+  await expect(page.getByText('RetroCoop ne fournit et n’héberge aucun jeu, aucune ROM et aucun BIOS.', {exact: false})).toBeVisible();
+  const externalLink = page.getByRole('link', {name: /Découvrir l’interface/});
+  await expect(externalLink).toHaveAttribute('href', 'https://partigo-retro-online.onrender.com');
+  await expect(externalLink).toHaveAttribute('target', '_blank');
+  await expect(externalLink).toHaveAttribute('rel', 'noopener noreferrer');
+});
+
 test('jaquette locale reste lisible en mobile', async ({page}) => {
   await page.setViewportSize({width: 390, height: 844});
   await page.goto('/jeux/megadrive/streets-of-rage-3');

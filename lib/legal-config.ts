@@ -22,7 +22,6 @@ export const legalContactPublicAllowlist = [
   '/mentions-legales',
   '/confidentialite',
   '/respect-droits-auteur',
-  '/signalement-droits',
   '/sources-et-droits',
   '/api/legal-config',
 ] as const;

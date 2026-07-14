@@ -14,7 +14,7 @@ describe('configuration juridique OFID', () => {
     expect(legalConfig.contactEmail).toBe('contact@ofid.fr');
     expect(legalConfig.publicPostalAddress).toBeNull();
     expect(legalContactPublicAllowlist).toContain('/mentions-legales');
-    expect(legalContactPublicAllowlist).toContain('/signalement-droits');
+    expect(legalContactPublicAllowlist).not.toContain('/signalement-droits');
   });
 
   it('interdit définitivement l’ancien contact dans le dépôt', () => {
@@ -34,7 +34,7 @@ describe('configuration juridique OFID', () => {
     expect(independenceNotice).toBe('Les marques, titres et visuels appartiennent à leurs ayants droit respectifs. RetroCoop est un projet expérimental gratuit indépendant et sans affiliation.');
     expect(layout).toContain('/mentions-legales');
     expect(layout).toContain('/respect-droits-auteur');
-    expect(layout).toContain('/signalement-droits');
+    expect(layout).not.toContain('/signalement-droits');
   });
 
   it('ne dérive jamais une identité publique de l’email', () => {
